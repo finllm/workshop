@@ -8,7 +8,7 @@
     </div>
     <div class="header">
       <div class="w padding flex">
-        <span>FinLLM 2025</span>
+        <span>FinLLM 2023</span>
         <div class="right">
           <img
             src="@/assets/img/ijcai.png"
@@ -20,14 +20,14 @@
     <div class="subtitle padding w">
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
-        (FinLLM 2025)@IJCAI 2025
+        (FinLLM 2023)@IJCAI 2023
       </div>
-      <!-- <button
+      <button
         class="registration"
         @click="$router.push('/fcb')"
       >
         List of Awards
-      </button> -->
+      </button>
       <!-- <div class="sub-img">
         <img
           src="@/assets/img/subImg.png"
@@ -37,7 +37,7 @@
     </div>
     <div class="center-box w padding">
       <div class="center-img-box">
-        <!-- <div class="center-text-box">
+        <div class="center-text-box">
           <div class="center-text-content">
             <div class="center-text-top">
               <span class="center-text-title">Symposium Date: <br /></span>
@@ -46,16 +46,16 @@
             <span class="center-text-title">Venue: <br /></span>
             <span class="center-text-body">Sheraton Grand Macao Hotel,Macau</span>
           </div>
-        </div> -->
-        <!-- <img
+        </div>
+        <img
           class="center-img"
           src="@/assets/img/hotel.jpg"
-        /> -->
+        />
       </div>
       <!-- <h1>Committee</h1> -->
       <h1>Scope and Objective</h1>
       <div class="cente-text mg-bottom">
-        <!-- Pretrained large language models (LLMs) have demonstrated tremendous potential in various natural language
+        Pretrained large language models (LLMs) have demonstrated tremendous potential in various natural language
         processing tasks, including language generation, machine translation, and question answering. In the financial
         services industry, pretrained LLMs have the potential to significantly impact tasks such as financial
         forecasting, risk management, and sentiment analysis. Moreover, LLMs can help automate the process of analyzing
@@ -67,36 +67,7 @@
         efficient, effective, and trustworthy. <br /><br />
         The symposium will also feature invited talks by leading researchers and industry experts, as well as panel
         discussions on the latest trends and challenges in the field. We welcome researchers, practitioners, and
-        industry experts from academia and industry to submit their work and participate in this exciting event. -->
-        In 2023, the FinLLM2023 workshop held in Macau achieved remarkable success, gathering a diverse group of
-        researchers, practitioners, and industry experts to explore the intersection of pretrained large - language
-        models (LLMs) and the financial services industry. Pretrained LLMs have since then continued to demonstrate
-        their vast potential across numerous natural language processing tasks, including language generation, machine
-        translation, and question - answering.<br /><br />
-        In the financial services domain, the influence of these models is becoming increasingly profound. They are
-        making a significant impact on tasks such as financial forecasting, risk management, and sentiment analysis.
-        Moreover, LLMs are automating the arduous process of analyzing financial reports, extracting crucial insights
-        that enable businesses to make well - informed decisions.
-        <br /><br />
-        Building on the success of FinLLM2023, this upcoming workshop aims to once again provide a global platform for
-        all stakeholders in the field. It will facilitate the sharing of novel ideas, the exchange of cutting - edge
-        research findings, and in - depth discussions on the challenges and opportunities that lie ahead. The workshop
-        will cover two themes: <br /><br />
-        • Theme 1: Expanding Potential Applications and Best Practices <br />
-        Building on the foundation laid in 2023, we will further explore the untapped potential applications of
-        pretrained LLMs in financial services. This includes delving into new use - cases, refining existing best
-        practices, and exploring how LLMs can be integrated more seamlessly into financial workflows.<br /><br />
-        • Theme 2: Overcoming Challenges for Efficiency, Effectiveness, and Trust<br />
-        The workshop will also continue to address the critical challenges that need to be overcome to ensure the
-        efficient, effective, and trustworthy use of LLMs in finance. This may include issues such as data privacy,
-        model interpretability, and the mitigation of biases in financial applications.<br /><br />
-        Similar to FinLLM2023, the workshop will feature invited talks by leading researchers and industry experts.
-        These experts will share their latest research and practical experiences, offering valuable insights to the
-        participants. Additionally, panel discussions will be organized to foster a collaborative environment where
-        participants can discuss the latest trends and challenges in the field. We cordially invite researchers,
-        practitioners, and industry experts from both academia and industry to submit their work and be part of this
-        exciting event. This workshop not only serves as a continuation of the successful FinLLM2023 but also as a
-        stepping - stone for further advancements in the application of LLMs in financial services.
+        industry experts from academia and industry to submit their work and participate in this exciting event.
       </div>
       <h1>Call for Papers</h1>
       <div class="cente-text mg-bottom">
@@ -107,30 +78,22 @@
         <div class="cente-text-cente flex">
           <div class="text">
             <span>Techniques: </span>
-            <br />
-            -Multimodal modeling of financial data using LLMs <br />
-            -Preprocessing and cleaning of financial data for use with LLMs<br />
-            -Integration of LLMs with other AI technologies in financial services <br />
-            -Novel architectures and training techniques for LLMs in financial services. <br />
-            -Scalability and efficiency of LLMs in financial services <br />
-            -Scalability and efficiency of LLMs in financial services<br />
-            -Cross-lingual and multilingual LLMs in financial services<br />
-            -Human-in-the-loop approaches for LLMs in financial services <br /><br />
-            <span>Applications:</span><br />
-            -Financial forecasting using LLMs <br />
-            -Sentiment analysis and opinion mining for financial data<br />
-            -LLM-based trading algorithms and decision-making systems <br />
-            -Analysis of financial news and social media using LLMs <br />
-            -Semantic analysis of financial reports and filings <br />
-            -Explainable AI in financial services using LLMs<br />
-            -Transfer learning and domain adaptation for LLMs in financial services <br />
-            -Case studies and success stories of LLMs in financial services <br /><br />
-            <span>Challenges:</span><br />
-            -Evaluation of LLMs for financial services <br />
-            -Social economics and trustworthiness for LLMs in financial services <br />
-            -Ethical and legal considerations in the use of LLMs in financial services <br />
-            -Privacy and security concerns in the use of LLMs for financial data <br />
-            -Bias and fairness considerations in the use of LLMs for financial services
+            <br />-Multimodal modeling of financial data using LLMs <br />-Preprocessing and cleaning of financial data
+            for use with LLMs <br />-Integration of LLMs with other AI technologies in financial services <br />-Novel
+            architectures and training techniques for LLMs in financial services. <br />-Scalability and efficiency of
+            LLMs in financial services <br />-Cross-lingual and multilingual LLMs in financial services
+            <br />-Human-in-the-loop approaches for LLMs in financial services <br /><br /><span>Applications:</span
+            ><br />
+            -Financial forecasting using LLMs <br />-Sentiment analysis and opinion mining for financial data
+            <br />-LLM-based trading algorithms and decision-making systems <br />-Analysis of financial news and social
+            media using LLMs <br />-Semantic analysis of financial reports and filings <br />-Explainable AI in
+            financial services using LLMs <br />-Transfer learning and domain adaptation for LLMs in financial services
+            <br />-Case studies and success stories of LLMs in financial services <br /><br /><span>Challenges:</span
+            ><br />
+            -Evaluation of LLMs for financial services <br />-Social economics and trustworthiness for LLMs in financial
+            services <br />-Ethical and legal considerations in the use of LLMs in financial services <br />-Privacy and
+            security concerns in the use of LLMs for financial data <br />-Bias and fairness considerations in the use
+            of LLMs for financial services
           </div>
           <div class="img-box">
             <img
@@ -140,8 +103,8 @@
           </div>
         </div>
       </div>
-      <!-- <h1>Important Dates</h1> -->
-      <!-- <div class="card-box mg-bottom">
+      <h1>Important Dates</h1>
+      <div class="card-box mg-bottom">
         <div class="card">
           <p class="title">Submission Due:</p>
           <p class="timer">
@@ -169,8 +132,8 @@
             <span class="month">August 20, 2023</span>
           </p>
         </div>
-      </div> -->
-      <!-- <h1>Submission Instructions</h1>
+      </div>
+      <h1>Submission Instructions</h1>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
           Submissions should be a maximum of 7 and a minimum of 4 pages including figures and tables in IJCAI'23 format.
@@ -185,9 +148,9 @@
             https://easychair.org/conferences/?conf=finllm2023</a
           >
         </div>
-      </div> -->
+      </div>
     </div>
-    <!-- <div class="middle">
+    <div class="middle">
       <div class="w padding">
         <h1>Tentative Schedule</h1>
         <div>
@@ -203,10 +166,17 @@
           </div>
         </div>
       </div>
-    </div> -->
+    </div>
     <div class="center-box w padding">
-      <!-- <h1>Organization</h1> -->
-      <!-- <div class="item-box">
+      <h1>Organization</h1>
+      <div class="item-box">
+        <!-- <div class="item-box-left">
+          <p>Symposium Organizers:</p>
+          <div>
+            -Shuoling Liu (E Fund) <br />-Xueyang Wu (Flaiverse) <br />-Yongpeng Tang (E Fund) <br />-Qian Xu (HKUST)
+            <br />-Liyuan Chen (E Fund) <br />-Qiang Yang (WeBank/HKUST, Hong Kong)
+          </div>
+        </div> -->
         <div class="item-box-right">
           <p>Invited Speakers</p>
           <div>
@@ -258,6 +228,57 @@
                 <p class="note">Archforce Technology</p>
               </div>
             </div>
+            <!-- 1.Shijie Wu (Bloomberg) <br />2.Bai Shuo (Chief Senior Technical Advisor of the Intelligent Investment
+            Research Technology) <br />3.Zhong Yuyang (Chief Information Officer of China Southern Asset Management)
+            <br />4.Sun Jianing (General Manager of both the Quantitative Investment Department and Equity Research
+            Department at Guotai Junan Securities Asset Management) <br />5.Jinlong Li (Director of the AI Laboratory of
+            China Merchants Bank) <br />6.Jie Tang (Tsinghua University) <br />7.Xiaoyan Liu (President of E Fund)
+            <br />8.Kar Yan Tam (Dean of HKUST Business School) <br />9.Sau San Chan (Chairman of the Monetary Authority
+            of Macao) <br />10.Eddie Yue (Chief Executive of the Hong Kong Monetary Authority) <br />11.Jie He (Head of
+            the Shenzhen Local Financial Supervision and Administration Bureau) <br />12.Ravi Menon (Managing Director
+            of the Monetary Authority of Singapore) -->
+          </div>
+        </div>
+      </div>
+      <!-- <p class="h1-title">Tentative Program Committee:</p>
+      <div class="item-box mg-bottom">
+        <div class="item-box-left bg-none media-bottom">
+          <div>
+            1.Adria Gascon (The Alan Turing Institute / University of Warwick) <br />2.Anis Elgabli (University of
+            Oulu)<br />
+            3.Aurélien Bellet (Inria) <br />4.Ayfer Ozgur (Stanford University) <br />5.Bai Shuo (Hengsheng Electronics
+            Co Ltd.)<br />
+            6.Bingsheng He (National University of Singapore) <br />7.Boi Faltings (Ecole Polytechnique Fédérale de
+            Lausanne)<br />
+            8.Chaoping Xing (Nanyang Technological University) <br />9.Chaoyang He (University of Southern
+            California)<br />
+            10.Dimitrios Papadopoulos (Hong Kong University of Science and Technology) <br />11.Fabio Casati (University
+            of Trento) <br />12.Farinaz Koushanfar (University of California San Diego) <br />13.Fangkai Tang (E Fund)
+            <br />14.Gauri Joshi (Carnegie Mellon University) <br />15.Graham Cormode (University of Warwick)
+            <br />16.Helen (Hai) Li (Duke University)<br />
+            17.Jalaj Upadhyay (Apple) <br />18.Ji Feng (Sinnovation Ventures AI Institute) <br />19.Jian Liu (Ping An
+            Asset Management) <br />20.Jianshu Weng (Swiss Re) <br />21.Jihong Park (University of Oulu) <br />22.Joshua
+            Gardner (University of Michigan) <br />23.Jun Zhao (Nanyang Technological University) <br />24.Junyang Li (E
+            Fund)
+          </div>
+        </div>
+        <div class="item-box-right">
+          <div>
+            25.Lalitha Sankar (Arizona State University) <br />26.Leye Wang (Peking University) <br />27.Marco Gruteser
+            (Google)<br />
+            28.Martin Jaggi (Ecole Polytechnique Fédérale de Lausanne) <br />29.Mehdi Bennis (University of Oulu)
+            <br />30.Mingshu Cong (The University of Hong Kong) <br />31.Nguyen Tran (The University of Sydney)
+            <br />32.Ning Cheng (E Fund)<br />
+            33.Pingzhong Tang (Tsinghua University) <br />34.Praneeth Vepakomma (MIT) <br />35.Prateek Mittal (Princeton
+            University)<br />
+            36.Rui Lin (Chalmers University of Technology) <br />37.Sewoong Oh (University of Illinois at
+            Urbana-Champaign)<br />
+            38.Shiqiang Wang (IBM) <br />39.Siwei Feng (Nanyang Technological University) <br />40.Tara Javidi
+            (University of California San Diego) <br />41.Xiaoyu Wang (E Fund) <br />42.Yihan Jiang (University of
+            Washington) <br />43.Yongxin Tong (Beihang University) <br />44.Tongzhe Zhang (E Fund) <br />45.Yuxiang Wang
+            (E Fund) <br />46.Zelei Liu (Nanyang Technological University) <br />47.Zichen Chen (Nanyang Technological
+            University) <br />48.Yuanyuan Chen (Nanyang Technological University) <br />49.Zheng Xu (University of
+            Science and Technology of China) <br />50.Zhengfei Li (E Fund)
           </div>
         </div>
       </div> -->
@@ -315,9 +336,21 @@
             </div>
           </div>
         </div>
-        <!-- <div class="centet-people">
+        <div class="centet-people">
           <div class="left-title">Program Chair</div>
           <div class="people-box">
+            <!-- <div class="info-box">
+              <div class="avt">
+                <img
+                  src="@/assets/img/6.png"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">Shuoling Liu</p>
+                <p class="note">E Fund</p>
+              </div>
+            </div> -->
             <div class="info-box">
               <div class="avt">
                 <img
@@ -355,7 +388,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
@@ -372,7 +405,7 @@
           <span>Shuoling Liu: </span>
           Head of Institute of Innovation at E Fund Management, Secretary-General of E Fund FinTech Executive Committee,
           Member of the FinTech Special Committee of AMAC. <br /><br />
-          <!-- <span>Xueyang Wu: </span>
+          <span>Xueyang Wu: </span>
           PhD, HKUST (2023), Co-founder & Principal Scientist at Flaiverse. Research interests: transfer learning,
           federated learning, NLP, LLMs. Publications: research papers & patents. Reviewer: NeurIPS, KDD, ICML, ICLR,
           etc. <br /><br />
@@ -382,24 +415,24 @@
           <span>Qian Xu: </span>
           PhD, HKUST (2011), Adjunct Associate Professor at HKUST(GZ). Research interests: AI, transfer learning,
           federated learning, NLP, LLMs. Experience at Baidu Inc. & Webank Inc. Executive Director of GSAIR & Founding
-          Member of GBA Society of AI and Robotics. -->
+          Member of GBA Society of AI and Robotics.
         </div>
       </div>
-      <!-- <h1>The Main Conference Information</h1>
+      <h1>The Main Conference Information</h1>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente">
           IJCAI 2023, <br />THE 32nd INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE. <br />19th-25th August
           2023 <br />Macao, S.A.R <br />
           <a href="https://ijcai-23.org/">https://ijcai-23.org/</a>
         </div>
-      </div> -->
+      </div>
     </div>
     <div class="footer padding">
       <div>
         <div class="email-icon"></div>
         <div class="email-info">
           <p>If you have any question, feel free to contact us:</p>
-          <p style="color: #b3ebff">finllm2025@easychair.org</p>
+          <p style="color: #b3ebff">finllm2023@easychair.org</p>
         </div>
       </div>
     </div>
