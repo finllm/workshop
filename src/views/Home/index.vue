@@ -55,19 +55,6 @@
       <!-- <h1>Committee</h1> -->
       <h1>Scope and Objective</h1>
       <div class="cente-text mg-bottom">
-        <!-- Pretrained large language models (LLMs) have demonstrated tremendous potential in various natural language
-        processing tasks, including language generation, machine translation, and question answering. In the financial
-        services industry, pretrained LLMs have the potential to significantly impact tasks such as financial
-        forecasting, risk management, and sentiment analysis. Moreover, LLMs can help automate the process of analyzing
-        financial reports and extracting key insights that can aid businesses in making informed decisions.<br /><br />
-        This symposium provides a platform for researchers, practitioners, and industry experts from around the world to
-        share new ideas, exchange research findings, and discuss the challenges and opportunities in the field of
-        pretrained LLMs for financial services. The symposium will cover two themes: 1) potential applications and best
-        practices of pretrained LLMs for financial services; and 2) challenges that need to be addressed to make them
-        efficient, effective, and trustworthy. <br /><br />
-        The symposium will also feature invited talks by leading researchers and industry experts, as well as panel
-        discussions on the latest trends and challenges in the field. We welcome researchers, practitioners, and
-        industry experts from academia and industry to submit their work and participate in this exciting event. -->
         In 2023, the FinLLM2023 workshop held in Macau achieved remarkable success, gathering a diverse group of
         researchers, practitioners, and industry experts to explore the intersection of pretrained large - language
         models (LLMs) and the financial services industry. Pretrained LLMs have since then continued to demonstrate
@@ -368,10 +355,10 @@
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
           ><br /><br />
           <span>Liyuan Chen: </span>
-          Chief Operating Officer of E Fund Management, Chairman of the E Fund FinTech Executive Committee.<br /><br />
+          Vice President of E Fund Management, Chairperson of E Fund FinTech Executive Committee.<br /><br />
           <span>Shuoling Liu: </span>
-          Head of Institute of Innovation at E Fund Management, Secretary-General of E Fund FinTech Executive Committee,
-          Member of the FinTech Special Committee of AMAC. <br /><br />
+          Cheif Information Officer of E Fund Management, Member of E Fund FinTech Executive Committee, Head of
+          Innovation Lab, Member of the FinTech Special Committee of AMAC.<br /><br />
           <!-- <span>Xueyang Wu: </span>
           PhD, HKUST (2023), Co-founder & Principal Scientist at Flaiverse. Research interests: transfer learning,
           federated learning, NLP, LLMs. Publications: research papers & patents. Reviewer: NeurIPS, KDD, ICML, ICLR,
