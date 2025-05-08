@@ -87,9 +87,25 @@
       </div>
       <h1>Call for Papers</h1>
       <div class="cente-text mg-bottom">
-        <div class="cente-text-title">
-          We welcome submissions on recent advances and applications of large language models (LLMs) in financial
-          services. We encourage submissions that cover a wide range of topics, including but not limited to:
+        <div>
+          We welcome submissions of both short papers (4 - 6 pages) and long papers on recent advances and applications
+          of large language models (LLMs) in financial services. Each submitted paper will undergo a rigorous peer -
+          review process by at least two reviewers to ensure high quality. <br /><br />
+          Papers will be considered for publication in the Frontiers of Information Technology & Electronic
+          Engineering(FITEE) special issue on "Theory and Applications of Financial Large Models"(
+          https://www.fitee.zjujournals.com/en/news/184388/). FITEE is a peer - reviewed journal jointly launched by the
+          Chinese Academy of Engineering (CAE) and Zhejiang University, co - published by Springer & Zhejiang University
+          Press, and indexed in SCI - E with an Impact Factor of 2.7 (2023 JCR). It is important to note that papers
+          recommended for FITEE will undergo a separate and independent peer - review process, distinct from the
+          workshop's review process. This means that acceptance is not guaranteed, as it will be determined by each
+          journal's specific evaluation criteria, available publication space, and the overall fit of the research with
+          the journal's scope.<br /><br />
+          Additionally,
+          <b
+            >1–3 outstanding authors will be selected to receive sponsorship for their IJCAI 2025 conference
+            registration fees, with student authors given priority under equal circumstances.</b
+          ><br /><br />
+          We encourage submissions that cover a wide range of topics, including but not limited to:<br /><br />
         </div>
         <div class="cente-text-cente flex">
           <div class="text">
@@ -100,7 +116,6 @@
             -Integration of LLMs with other AI technologies in financial services <br />
             -Novel architectures and training techniques for LLMs in financial services. <br />
             -Scalability and efficiency of LLMs in financial services <br />
-            -Scalability and efficiency of LLMs in financial services<br />
             -Cross-lingual and multilingual LLMs in financial services<br />
             -Human-in-the-loop approaches for LLMs in financial services <br /><br />
             <span>Applications:</span><br />
@@ -127,36 +142,36 @@
           </div>
         </div>
       </div>
-      <!-- <h1>Important Dates</h1> -->
-      <!-- <div class="card-box mg-bottom">
+      <h1>Important Dates</h1>
+      <div class="card-box mg-bottom">
         <div class="card">
-          <p class="title">Submission Due:</p>
+          <p class="title">Paper Submission Deadlie:</p>
           <p class="timer">
-            <span class="month">June 20, 2023</span>
+            <span class="month">May 31, 2025</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
-          <p class="title">Notification Due:</p>
+          <p class="title">Notification of Acceptance:</p>
           <p class="timer">
-            <span class="month">July 4, 2023</span>
+            <span class="month">June 12, 2025</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
-          <p class="title">Final Version Due:</p>
+          <p class="title">Early Registration Deadline:</p>
           <p class="timer">
-            <span class="month">August 3, 2023</span>
+            <span class="month">June 15, 2025</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
-        <div class="card">
+        <!-- <div class="card">
           <p class="title">Symposium Date:</p>
           <p class="timer">
             <span class="month">August 20, 2023</span>
           </p>
-        </div>
-      </div> -->
+        </div> -->
+      </div>
       <!-- <h1>Submission Instructions</h1>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
@@ -359,17 +374,16 @@
           <span>Shuoling Liu: </span>
           Cheif Information Officer of E Fund Management, Member of E Fund FinTech Executive Committee, Head of
           Innovation Lab, Member of the FinTech Special Committee of AMAC.<br /><br />
-          <!-- <span>Xueyang Wu: </span>
-          PhD, HKUST (2023), Co-founder & Principal Scientist at Flaiverse. Research interests: transfer learning,
-          federated learning, NLP, LLMs. Publications: research papers & patents. Reviewer: NeurIPS, KDD, ICML, ICLR,
-          etc. <br /><br />
-          <span>Yongpeng Tang: </span>
-          MD, Head of Application Development at E Fund Management, Member of E Fund Fintech Executive Committee, Senior
-          FinTech expert. <br /><br />
-          <span>Qian Xu: </span>
-          PhD, HKUST (2011), Adjunct Associate Professor at HKUST(GZ). Research interests: AI, transfer learning,
-          federated learning, NLP, LLMs. Experience at Baidu Inc. & Webank Inc. Executive Director of GSAIR & Founding
-          Member of GBA Society of AI and Robotics. -->
+          <span>Prof. Xiu Li: </span>
+          Tsinghua Shenzhen International Graduate School, China. <br /><br />
+          <span>Prof. Xiaojun Zeng: </span>
+          University of Manchester, UK. <br /><br />
+          <span>Prof. Bo An: </span>
+          Nanyang Technological University, Singapore.<br /><br />
+          <span>Prof. Jian Guo: </span>
+          Digital Economy Institute of Guangdong-Hong Kong-Macao Greater Bay Area (IDEA), China.<br /><br />
+          <span>Dr. Jianzong Wang: </span>
+          Deputy Chief Engineer of Ping An Technology Co., Ltd., China.
         </div>
       </div>
       <!-- <h1>The Main Conference Information</h1>
@@ -723,7 +737,7 @@ export default {}
   }
   .card-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     .card {
       width: 285px;
       height: 156px;
@@ -857,57 +871,6 @@ export default {}
             }
           }
         }
-        // & > div {
-        //   width: 90px;
-        //   // background: url('@/assets/img/rect.png') no-repeat;
-        //   // background-size: cover;
-        //   // display: flex;
-        //   // align-items: center;
-        //   display: flex;
-        //   align-items: center;
-        //   color: #ffffff;
-        //   // overflow: hidden;
-        //   @media (max-width: 750px) {
-        //     width: 180px;
-        //   }
-        //   & > div {
-        //     font-size: 26px;
-        //     color: #292f36;
-        //     font-weight: 600;
-        //     text-align: center;
-        //     &.img-box {
-        //       // height: 90px;
-        //       border-radius: 50%;
-        //       overflow: hidden;
-        //       margin-bottom: 10px;
-        //       // @media (max-width: 750px) {
-        //       //   height: 180px;
-        //       // }
-        //     }
-        //     @media (max-width: 750px) {
-        //       font-size: 42px;
-        //     }
-        //   }
-        //   img {
-        //     width: 100%;
-        //     height: 100%;
-        //   }
-        //   @media (max-width: 750px) {
-        //     width: 180px;
-        //     height: 180px;
-        //     margin-top: 40px;
-        //   }
-        //   @media (max-width: 375px) {
-        //     width: 200px;
-        //     height: 200px;
-        //     margin-top: 40px;
-        //   }
-        // }
-        // @media (max-width: 750px) {
-        //   .isH5 {
-        //     display: none;
-        //   }
-        // }
       }
       p {
         font-size: 26px;
