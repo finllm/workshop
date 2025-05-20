@@ -317,47 +317,35 @@
             </div>
           </div>
         </div>
-        <!-- <div class="centet-people">
-          <div class="left-title">Program Chair</div>
+        <div class="centet-people">
+          <div class="left-title">Student Program Chairs</div>
           <div class="people-box">
             <div class="info-box">
               <div class="avt">
                 <img
-                  src="@/assets/img/xueyangWu.png"
+                  src="@/assets/img/mayue.png"
                   alt=""
                 />
               </div>
               <div class="info">
-                <p class="name">Xueyang Wu</p>
-                <p class="note">Flaiverse</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/yongpeng tang.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Yongpeng Tang</p>
-                <p class="note">E Fund</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/qianxu.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Qian Xu</p>
+                <p class="name">Yue Ma</p>
                 <p class="note">HKUST</p>
               </div>
             </div>
+            <div class="info-box">
+              <div class="avt">
+                <img
+                  src="@/assets/img/zhangjunjie.png"
+                  alt=""
+                />
+              </div>
+              <div class="info">
+                <p class="name">Junjie Zhang</p>
+                <p class="note">NTU</p>
+              </div>
+            </div>
           </div>
-        </div> -->
+        </div>
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">

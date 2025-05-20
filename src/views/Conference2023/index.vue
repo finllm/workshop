@@ -240,48 +240,6 @@
           </div>
         </div>
       </div>
-      <!-- <p class="h1-title">Tentative Program Committee:</p>
-      <div class="item-box mg-bottom">
-        <div class="item-box-left bg-none media-bottom">
-          <div>
-            1.Adria Gascon (The Alan Turing Institute / University of Warwick) <br />2.Anis Elgabli (University of
-            Oulu)<br />
-            3.Aurélien Bellet (Inria) <br />4.Ayfer Ozgur (Stanford University) <br />5.Bai Shuo (Hengsheng Electronics
-            Co Ltd.)<br />
-            6.Bingsheng He (National University of Singapore) <br />7.Boi Faltings (Ecole Polytechnique Fédérale de
-            Lausanne)<br />
-            8.Chaoping Xing (Nanyang Technological University) <br />9.Chaoyang He (University of Southern
-            California)<br />
-            10.Dimitrios Papadopoulos (Hong Kong University of Science and Technology) <br />11.Fabio Casati (University
-            of Trento) <br />12.Farinaz Koushanfar (University of California San Diego) <br />13.Fangkai Tang (E Fund)
-            <br />14.Gauri Joshi (Carnegie Mellon University) <br />15.Graham Cormode (University of Warwick)
-            <br />16.Helen (Hai) Li (Duke University)<br />
-            17.Jalaj Upadhyay (Apple) <br />18.Ji Feng (Sinnovation Ventures AI Institute) <br />19.Jian Liu (Ping An
-            Asset Management) <br />20.Jianshu Weng (Swiss Re) <br />21.Jihong Park (University of Oulu) <br />22.Joshua
-            Gardner (University of Michigan) <br />23.Jun Zhao (Nanyang Technological University) <br />24.Junyang Li (E
-            Fund)
-          </div>
-        </div>
-        <div class="item-box-right">
-          <div>
-            25.Lalitha Sankar (Arizona State University) <br />26.Leye Wang (Peking University) <br />27.Marco Gruteser
-            (Google)<br />
-            28.Martin Jaggi (Ecole Polytechnique Fédérale de Lausanne) <br />29.Mehdi Bennis (University of Oulu)
-            <br />30.Mingshu Cong (The University of Hong Kong) <br />31.Nguyen Tran (The University of Sydney)
-            <br />32.Ning Cheng (E Fund)<br />
-            33.Pingzhong Tang (Tsinghua University) <br />34.Praneeth Vepakomma (MIT) <br />35.Prateek Mittal (Princeton
-            University)<br />
-            36.Rui Lin (Chalmers University of Technology) <br />37.Sewoong Oh (University of Illinois at
-            Urbana-Champaign)<br />
-            38.Shiqiang Wang (IBM) <br />39.Siwei Feng (Nanyang Technological University) <br />40.Tara Javidi
-            (University of California San Diego) <br />41.Xiaoyu Wang (E Fund) <br />42.Yihan Jiang (University of
-            Washington) <br />43.Yongxin Tong (Beihang University) <br />44.Tongzhe Zhang (E Fund) <br />45.Yuxiang Wang
-            (E Fund) <br />46.Zelei Liu (Nanyang Technological University) <br />47.Zichen Chen (Nanyang Technological
-            University) <br />48.Yuanyuan Chen (Nanyang Technological University) <br />49.Zheng Xu (University of
-            Science and Technology of China) <br />50.Zhengfei Li (E Fund)
-          </div>
-        </div>
-      </div> -->
       <p><br /></p>
       <h1>Organizers of Organizing Committee</h1>
       <div class="cente-text mg-bottom">
@@ -339,18 +297,6 @@
         <div class="centet-people">
           <div class="left-title">Program Chair</div>
           <div class="people-box">
-            <!-- <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/6.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Shuoling Liu</p>
-                <p class="note">E Fund</p>
-              </div>
-            </div> -->
             <div class="info-box">
               <div class="avt">
                 <img
