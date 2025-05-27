@@ -20,7 +20,8 @@
     <div class="subtitle padding w">
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
-        (FinLLM 2025)@IJCAI 2025
+        (FinLLM 2025)@IJCAI 2025<br />
+        <span style="font-size: medium">Guangzhou, China, August 28-31, 2025</span>
       </div>
       <!-- <button
         class="registration"
@@ -67,8 +68,11 @@
         <br /><br />
         Building on the success of FinLLM2023, this upcoming workshop aims to once again provide a global platform for
         all stakeholders in the field. It will facilitate the sharing of novel ideas, the exchange of cutting - edge
-        research findings, and in - depth discussions on the challenges and opportunities that lie ahead. The workshop
-        will cover two themes: <br /><br />
+        research findings, and in - depth discussions on the challenges and opportunities that lie ahead. <br /><br />
+
+        To support authors who may experience difficulties obtaining Canadian visas, FinLLM2025 is going to be held in
+        Guangzhou, China with the IJCAI satellite meeting, between August 28 and August 31, 2025. <br /><br />The
+        workshop will cover two themes: <br /><br />
         • Theme 1: Expanding Potential Applications and Best Practices <br />
         Building on the foundation laid in 2023, we will further explore the untapped potential applications of
         pretrained LLMs in financial services. This includes delving into new use - cases, refining existing best
@@ -88,15 +92,19 @@
       <h1>Call for Papers</h1>
       <div class="cente-text mg-bottom">
         <div>
-          We welcome submissions of both short papers (4 - 6 pages) and long papers on recent advances and applications
-          of large language models (LLMs) in financial services. Each submitted paper will undergo a rigorous peer -
-          review process by at least two reviewers to ensure high quality. <br /><br />
-          Papers will be considered for publication in the Frontiers of Information Technology & Electronic
-          Engineering(FITEE) special issue on "Theory and Applications of Financial Large Models"(
-          https://www.fitee.zjujournals.com/en/news/184388/). FITEE is a peer - reviewed journal jointly launched by the
-          Chinese Academy of Engineering (CAE) and Zhejiang University, co - published by Springer & Zhejiang University
-          Press, and indexed in SCI - E with an Impact Factor of 2.7 (2023 JCR). It is important to note that papers
-          recommended for FITEE will undergo a separate and independent peer - review process, distinct from the
+          We welcome submissions of both short papers (4-6 pages) and long papers on recent advances and applications of
+          large language models (LLMs) in financial services. Each submitted paper will undergo a rigorous peer-review
+          process by at least two reviewers to ensure high quality. Your Paper should be submitted in website
+          https://easychair.org/conferences/?conf=finllmijcai2025 or to our co-organized special issue in FITEE
+          (https://www.fitee.zjujournals.com/en/news/184388/) following the guideline
+          https://www.fitee.zjujournals.com/en/news/184388/. <br /><br />
+
+          Papers will be considered for publication in the Frontiers of Information Technology & Electronic Engineering
+          (FITEE) special issue on "Theory and Applications of Financial Large Models"(
+          https://www.fitee.zjujournals.com/en/news/184388/). FITEE is a peer-reviewed journal jointly launched by the
+          Chinese Academy of Engineering (CAE) and Zhejiang University, co-published by Springer & Zhejiang University
+          Press, and indexed in SCI-E with an Impact Factor of 2.7 (2023 JCR). It is important to note that papers
+          recommended for FITEE will undergo a separate and independent peer-review process, distinct from the
           workshop's review process. This means that acceptance is not guaranteed, as it will be determined by each
           journal's specific evaluation criteria, available publication space, and the overall fit of the research with
           the journal's scope.<br /><br />
@@ -147,7 +155,7 @@
         <div class="card">
           <p class="title">Paper Submission Deadlie:</p>
           <p class="timer">
-            <span class="month">May 31, 2025</span>
+            <span class="month">June 6, 2025</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
