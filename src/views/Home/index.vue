@@ -21,126 +21,74 @@
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
         (FinLLM 2025)@IJCAI 2025<br />
-        <span style="font-size: medium">Guangzhou, China, August 28-31, 2025</span>
+        <span style="font-size: medium">Guangzhou, China, August 28, 2025</span>
       </div>
-      <!-- <button
-        class="registration"
-        @click="$router.push('/fcb')"
-      >
-        List of Awards
-      </button> -->
-      <!-- <div class="sub-img">
-        <img
-          src="@/assets/img/subImg.png"
-          alt=""
-        />
-      </div> -->
     </div>
     <div class="center-box w padding">
-      <div class="center-img-box">
-        <!-- <div class="center-text-box">
-          <div class="center-text-content">
-            <div class="center-text-top">
-              <span class="center-text-title">Symposium Date: <br /></span>
-              <span class="center-text-body">August 20, 2023 <br /></span>
-            </div>
-            <span class="center-text-title">Venue: <br /></span>
-            <span class="center-text-body">Sheraton Grand Macao Hotel,Macau</span>
-          </div>
-        </div> -->
-        <!-- <img
-          class="center-img"
-          src="@/assets/img/hotel.jpg"
-        /> -->
-      </div>
-      <!-- <h1>Committee</h1> -->
+      <div class="center-img-box"></div>
       <h1>Scope and Objective</h1>
       <div class="cente-text mg-bottom">
-        In 2023, the FinLLM2023 workshop held in Macau achieved remarkable success, gathering a diverse group of
-        researchers, practitioners, and industry experts to explore the intersection of pretrained large - language
-        models (LLMs) and the financial services industry. Pretrained LLMs have since then continued to demonstrate
-        their vast potential across numerous natural language processing tasks, including language generation, machine
-        translation, and question - answering.<br /><br />
-        In the financial services domain, the influence of these models is becoming increasingly profound. They are
-        making a significant impact on tasks such as financial forecasting, risk management, and sentiment analysis.
-        Moreover, LLMs are automating the arduous process of analyzing financial reports, extracting crucial insights
-        that enable businesses to make well - informed decisions.
-        <br /><br />
-        Building on the success of FinLLM2023, this upcoming workshop aims to once again provide a global platform for
-        all stakeholders in the field. It will facilitate the sharing of novel ideas, the exchange of cutting - edge
-        research findings, and in - depth discussions on the challenges and opportunities that lie ahead. <br /><br />
+        Building on the success of FinLLM2023 in Macau, FinLLM2025 returns as a core satellite event of IJCAI 2025,
+        scheduled for <b>August 28, 2025</b> in Guangzhou. This symposium continues to bridge pretrained large-language
+        models (LLMs) with financial services, addressing breakthroughs in technology, real-world applications, and
+        emerging challenges. <br /><br />
 
-        To support authors who may experience difficulties obtaining Canadian visas, FinLLM2025 is going to be held in
-        Guangzhou, China with the IJCAI satellite meeting, between August 28 and August 31, 2025. <br /><br />The
-        workshop will cover two themes: <br /><br />
-        • Theme 1: Expanding Potential Applications and Best Practices <br />
-        Building on the foundation laid in 2023, we will further explore the untapped potential applications of
-        pretrained LLMs in financial services. This includes delving into new use - cases, refining existing best
-        practices, and exploring how LLMs can be integrated more seamlessly into financial workflows.<br /><br />
-        • Theme 2: Overcoming Challenges for Efficiency, Effectiveness, and Trust<br />
-        The workshop will also continue to address the critical challenges that need to be overcome to ensure the
-        efficient, effective, and trustworthy use of LLMs in finance. This may include issues such as data privacy,
-        model interpretability, and the mitigation of biases in financial applications.<br /><br />
-        Similar to FinLLM2023, the workshop will feature invited talks by leading researchers and industry experts.
-        These experts will share their latest research and practical experiences, offering valuable insights to the
-        participants. Additionally, panel discussions will be organized to foster a collaborative environment where
-        participants can discuss the latest trends and challenges in the field. We cordially invite researchers,
-        practitioners, and industry experts from both academia and industry to submit their work and be part of this
-        exciting event. This workshop not only serves as a continuation of the successful FinLLM2023 but also as a
-        stepping - stone for further advancements in the application of LLMs in financial services.
+        LLMs have demonstrated transformative potential in financial forecasting, risk management, and sentiment
+        analysis, automating tasks like financial report analysis and insight extraction. FinLLM2025 aims to provide a
+        global platform for stakeholders to share novel research, exchange industry best practices, and debate the
+        future of LLM integration in finance.<br /><br />
+        <span style="font-weight: 700; font-size: 18px">Thematic Focus</span><br />
+        1. Expanding Applications & Best Practices<br />
+        Exploring untapped use cases (e.g., smart trading, cross-lingual analysis) and refining workflows for seamless
+        LLM integration.<br /><br />
+        2. Overcoming Efficiency, Effectiveness, & Trust Challenges<br />
+        Addressing data privacy, model interpretability, bias mitigation, and regulatory compliance in financial LLM
+        applications.
       </div>
-      <h1>Call for Papers</h1>
+      <h1>Call for Papers & Updates</h1>
       <div class="cente-text mg-bottom">
-        <div>
-          We welcome submissions of both short papers (4-6 pages) and long papers on recent advances and applications of
-          large language models (LLMs) in financial services. Each submitted paper will undergo a rigorous peer-review
-          process by at least two reviewers to ensure high quality. Your Paper should be submitted in website
-          https://easychair.org/conferences/?conf=finllmijcai2025 or to our co-organized special issue in FITEE
-          (https://www.fitee.zjujournals.com/en/news/184388/) following the guideline
-          https://www.fitee.zjujournals.com/en/news/184388/. <br /><br />
-
-          Papers will be considered for publication in the Frontiers of Information Technology & Electronic Engineering
-          (FITEE) special issue on "Theory and Applications of Financial Large Models"(
-          https://www.fitee.zjujournals.com/en/news/184388/). FITEE is a peer-reviewed journal jointly launched by the
-          Chinese Academy of Engineering (CAE) and Zhejiang University, co-published by Springer & Zhejiang University
-          Press, and indexed in SCI-E with an Impact Factor of 2.7 (2023 JCR). It is important to note that papers
-          recommended for FITEE will undergo a separate and independent peer-review process, distinct from the
-          workshop's review process. This means that acceptance is not guaranteed, as it will be determined by each
-          journal's specific evaluation criteria, available publication space, and the overall fit of the research with
-          the journal's scope.<br /><br />
-          Additionally,
-          <b
-            >1–3 outstanding authors will be selected to receive sponsorship for their IJCAI 2025 conference
-            registration fees, with student authors given priority under equal circumstances.</b
-          ><br /><br />
-          We encourage submissions that cover a wide range of topics, including but not limited to:<br /><br />
+        <div class="cente-text-cente flex">
+          <div class="text">
+            <span>Submission Updates</span>
+            <br />
+            <b>• Original Submissions (closed on June 6, 2025):</b><br />
+            &nbsp;&nbsp;&nbsp;&nbsp;∘ Two outstanding student authors have been awarded sponsorship for IJCAI 2025
+            registration fees.<br />
+            &nbsp;&nbsp;&nbsp;&nbsp;∘ Selected papers have been notified and recommended for publication in the FITEE
+            special issue "Theory and Applications of Financial Large Models" (SCI-E indexed, IF 2.7).<br />
+            <b>• Extended Submission Period (open until July 15, 2025):</b><br />
+            We welcome late submissions for workshop presentation consideration. Submissions will be evaluated for
+            innovative research on LLM applications in finance, with selected authors invited to showcase their work at
+            FinLLM2025.<br /><br />
+          </div>
         </div>
         <div class="cente-text-cente flex">
           <div class="text">
+            <span>Submission Guidelines</span>
+            <br />
+            • Submit via <a href="https://easychair.org/account2/signin?l=5508383540203630141">EasyChair.</a><br />
+            • Follow <a href="https://www.fitee.zjujournals.com/en/about/7144/">FITEE template</a> or IJCAI 2025
+            formatting (English only).<br />
+            • Note: Late submissions will not be considered for FITEE publication but may qualify for workshop
+            presentation.<br /><br />
+          </div>
+        </div>
+        <div class="cente-text-cente flex">
+          <div class="text">
+            <span>Key Topics (including but not limited to)</span><br />
             <span>Techniques: </span>
             <br />
-            -Multimodal modeling of financial data using LLMs <br />
-            -Preprocessing and cleaning of financial data for use with LLMs<br />
-            -Integration of LLMs with other AI technologies in financial services <br />
-            -Novel architectures and training techniques for LLMs in financial services. <br />
-            -Scalability and efficiency of LLMs in financial services <br />
-            -Cross-lingual and multilingual LLMs in financial services<br />
-            -Human-in-the-loop approaches for LLMs in financial services <br /><br />
+            • Multimodal financial data modeling with LLMs<br />
+            • Cross-lingual LLM architectures for global finance <br />
+            • Human-in-the-loop frameworks for financial decision-making<br /><br />
             <span>Applications:</span><br />
-            -Financial forecasting using LLMs <br />
-            -Sentiment analysis and opinion mining for financial data<br />
-            -LLM-based trading algorithms and decision-making systems <br />
-            -Analysis of financial news and social media using LLMs <br />
-            -Semantic analysis of financial reports and filings <br />
-            -Explainable AI in financial services using LLMs<br />
-            -Transfer learning and domain adaptation for LLMs in financial services <br />
-            -Case studies and success stories of LLMs in financial services <br /><br />
+            • LLM-based algorithmic trading systems<br />
+            • Semantic analysis of regulatory filings<br />
+            • Explainable AI in risk assessment<br /><br />
             <span>Challenges:</span><br />
-            -Evaluation of LLMs for financial services <br />
-            -Social economics and trustworthiness for LLMs in financial services <br />
-            -Ethical and legal considerations in the use of LLMs in financial services <br />
-            -Privacy and security concerns in the use of LLMs for financial data <br />
-            -Bias and fairness considerations in the use of LLMs for financial services
+            • Ethical biases in financial LLM predictions<br />
+            • Cross-border data privacy compliance<br />
+            • Real-time model validation for financial stability<br /><br />
           </div>
           <div class="img-box">
             <img
@@ -153,24 +101,24 @@
       <h1>Important Dates</h1>
       <div class="card-box mg-bottom">
         <div class="card">
-          <p class="title">Paper Submission Deadlie:</p>
+          <p class="title">Submission Deadline:</p>
           <p class="timer">
-            <span class="month">June 6, 2025</span>
+            <span class="month">July 15, 2025</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
-          <p class="title">Notification of Acceptance:</p>
+          <p class="title">Presentation Notification:</p>
           <p class="timer">
-            <span class="month">June 12, 2025</span>
-            <span class="date">(23:59:59 AoE)</span>
+            <span class="month">July 20, 2025</span>
+            <!-- <span class="date">(23:59:59 AoE)</span> -->
           </p>
         </div>
         <div class="card">
-          <p class="title">Early Registration Deadline:</p>
+          <p class="title">Workshop Date:</p>
           <p class="timer">
-            <span class="month">June 15, 2025</span>
-            <span class="date">(23:59:59 AoE)</span>
+            <span class="month">August 28, 2025</span>
+            <!-- <span class="date">(23:59:59 AoE)</span> -->
           </p>
         </div>
         <!-- <div class="card">
@@ -396,7 +344,7 @@
         <div class="email-icon"></div>
         <div class="email-info">
           <p>If you have any question, feel free to contact us:</p>
-          <p style="color: #b3ebff">finllm2025@easychair.org</p>
+          <p style="color: #b3ebff">yanjiangpeng@efunds.com.cn</p>
         </div>
       </div>
     </div>
