@@ -63,7 +63,6 @@ export default {}
 
 <style lang="less" scoped>
 .invitation2025 {
-  height: 100vh;
   display: flex;
   flex-direction: column;
 }
