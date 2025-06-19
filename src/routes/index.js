@@ -6,6 +6,7 @@ import Conference2023 from '@/views/Conference2023/index.vue'
 import Brochure from '@/views/Brochure/index.vue'
 import ConferenceBrochure from '@/views/ConferenceBrochure/index.vue'
 import Invitation from '@/views/2025/invitation/index.vue'
+import InvitationEN from '@/views/2025/invitationEN/index.vue'
 const routes = [
   {
     path: '/',
@@ -16,6 +17,11 @@ const routes = [
     path: '/invitation',
     name: 'Invitation',
     component: Invitation,
+  },
+  {
+    path: '/invitationEN',
+    name: 'InvitationEN',
+    component: InvitationEN,
   },
   {
     path: '/2023',

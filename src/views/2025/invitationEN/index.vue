@@ -18,11 +18,15 @@
         alt="内容背景"
       />
       <div class="main-inner">
-        <div class="main-title">诚邀参加2025年国际金融服务领域大型语言模型研讨会（FinLLM 2025）@ IJCAI 2025</div>
+        <div class="main-title">
+          Invitation to the 2025 International Workshop on Large Language Models in Financial Services(FinLLM 2025)@
+          IJCAI 2025
+        </div>
         <div class="main-section">
-          我们荣幸地邀请您参加2025年国际金融服务领域大型语言模型研讨会（FinLLM
-          2025），该研讨会是2025年国际人工智能联合大会（IJCAI
-          2025）下属研讨会（Workshop）。这一高水平的学术盛会将于2025年8月29日上午在广州南丰朗豪酒店举行。更多详细信息，请访问研讨会网站：<br />
+          We are honored to invite you to participate in the 2025 International Workshop on Large Language Models in
+          Financial Services (FinLLM 2025), which is a workshop of the 26th International Joint Conference on Artificial
+          Intelligence (IJCAI 2025). This high-level academic event will be held on the morning of August 29, 2025, at
+          the Langham Hotel Guangzhou South. For more detailed information, please visit the workshop website:<br />
           <a
             href="https://finllm.github.io/workshop/#/"
             target="_blank"
@@ -30,27 +34,37 @@
           >
         </div>
         <div class="main-section">
-          FinLLM
-          2025由加拿大科学院院士杨强教授团队、清华大学深圳国际研究生院李秀教授团队和易方达基金管理有限公司共同组织。会议组织方拟邀请国内外的知名的学术界研究学者和金融业界的从业者，为参会者带来最新的高水平研究成果和具备实用性以及深刻洞察力的远见卓识。本次研讨会旨在汇聚金融服务领域大型语言模型（LLMs）技术、应用及挑战方面的顶尖研究者、专业人士和实践者。我们相信您在该领域的专业知识将为本次活动的成功做出重要贡献。
+          FinLLM 2025 is jointly organized by the research team led by Professor Qiang Yang, Fellow of the Royal Society
+          of Canada, the research team led by Professor Xiu Li from Tsinghua Shenzhen International Graduate School, and
+          E Fund Management Co., Ltd. The organizing committee aims to bring together renowned scholars from academia
+          and experienced practitioners from the financial industry worldwide to share cutting-edge research outcomes as
+          well as insightful and practical perspectives. This workshop seeks to gather leading researchers,
+          professionals, and practitioners working on technologies, applications, and challenges related to large
+          language models (LLMs) in financial services. We believe your expertise in this field will make a significant
+          contribution to the success of this event.
         </div>
         <div class="main-section">
-          本届大会已收到世界范围内多篇学术论文投稿提交，并邀请优秀投稿在workshop上进行演讲分享。本次研讨会接受的文章，将在组委会同期于中国工程院院刊、SCI检索期刊《Frontiers
-          of Information Technology & Electronic Engineering（FITEE）》组织的"金融大模型理论及应用"专题（<a
-            href="https://www.fitee.zjujournals.com/en/news/184388"
-            target="_blank"
+          The workshop has received numerous paper submissions from around the world, and selected outstanding
+          contributions will be invited for presentation during the workshop. Papers accepted for the workshop will be
+          considered for publication in a special issue titled "Theory and Applications of Large Foundation Models in
+          Finance", to be published in the journal Frontiers of Information Technology & Electronic Engineering (FITEE)
+          — a publication of the Chinese Academy of Engineering indexed by SCI. For more details about the special
+          issue, please visit:
+          <a href="https://www.fitee.zjujournals.com/en/news/184388"
             >https://www.fitee.zjujournals.com/en/news/184388</a
-          >）特刊上择优发表。
+          >
         </div>
         <div class="main-section">
-          如您有任何疑问或需要进一步协助，请随时联系我们：<br />
+          If you have any questions or need further assistance, please feel free to contact us at:<br />
           <a href="mailto:yanjiangpeng@efunds.com.cn">yanjiangpeng@efunds.com.cn</a><br />
-          我们期待您加入这一卓越的盛会，并期待在广州与您相见。
+          We look forward to your participation in this distinguished event and hope to meet you in Guangzhou.
         </div>
         <div
           class="main-section"
           style="text-align: left; margin-top: 20px"
         >
-          顺祝商祺，<br />FinLLM 2025组委会代表
+          Best regards,<br />
+          On behalf of the FinLLM 2025 Organizing Committee
         </div>
       </div>
     </div>
