@@ -21,7 +21,7 @@
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
         (FinLLM 2025)@IJCAI 2025<br />
-        <span style="font-size: medium">Guangzhou, China, August 28, 2025</span>
+        <span style="font-size: medium">Guangzhou, China, August 29, 2025</span>
       </div>
     </div>
     <div class="center-box w padding">
@@ -29,7 +29,7 @@
       <h1>Scope and Objective</h1>
       <div class="cente-text mg-bottom">
         Building on the success of FinLLM2023 in Macau, FinLLM2025 returns as a core satellite event of IJCAI 2025,
-        scheduled for <b>August 28, 2025</b> in Guangzhou. This symposium continues to bridge pretrained large-language
+        scheduled for <b>August 29, 2025</b> in Guangzhou. This symposium continues to bridge pretrained large-language
         models (LLMs) with financial services, addressing breakthroughs in technology, real-world applications, and
         emerging challenges. <br /><br />
 
@@ -117,7 +117,7 @@
         <div class="card">
           <p class="title">Workshop Date:</p>
           <p class="timer">
-            <span class="month">August 28, 2025</span>
+            <span class="month">August 29, 2025</span>
             <!-- <span class="date">(23:59:59 AoE)</span> -->
           </p>
         </div>
