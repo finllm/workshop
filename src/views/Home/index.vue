@@ -21,7 +21,7 @@
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
         (FinLLM 2025)@IJCAI 2025<br />
-        <span style="font-size: medium">Guangzhou, China, August 29, 2025</span>
+        <span class="sub-text-date">Guangzhou, China, August 29, 2025</span>
       </div>
     </div>
     <div class="center-box w padding">
