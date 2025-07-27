@@ -37,7 +37,11 @@
         analysis, automating tasks like financial report analysis and insight extraction. FinLLM2025 aims to provide a
         global platform for stakeholders to share novel research, exchange industry best practices, and debate the
         future of LLM integration in finance.<br /><br />
-        <span style="font-weight: 700; font-size: 18px">Thematic Focus</span><br />
+        <span
+          class="p-text"
+          style="font-weight: 700"
+          >Thematic Focus</span
+        ><br />
         1. Expanding Applications & Best Practices<br />
         Exploring untapped use cases (e.g., smart trading, cross-lingual analysis) and refining workflows for seamless
         LLM integration.<br /><br />
