@@ -26,7 +26,7 @@
           class="registration"
           @click="$router.push('/fcb2025')"
         >
-          List of Awards
+          Accepted Papers
         </button>
       </div>
     </div>
@@ -359,7 +359,7 @@
               </tr>
               <tr>
                 <td>08:35-09:05</td>
-                <td>TBD</td>
+                <td>Continual Federated Learning</td>
                 <td>Qiang Yang</td>
               </tr>
               <tr>

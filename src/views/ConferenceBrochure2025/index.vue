@@ -86,15 +86,6 @@
         HARLF: Hierarchical Reinforcement Learning and Lightweight LLM-Driven Sentiment Integration for Financial
         Portfolio Optimization
       </div>
-      <h1 class="big-title">Award</h1>
-    </div>
-    <div class="jz-box w padding">
-      <img
-        v-for="item in 6"
-        :key="item"
-        :src="require(`../../assets/img/jiangzhuang (${item}).jpg`)"
-        alt=""
-      />
     </div>
     <div class="footer padding">
       <div>
