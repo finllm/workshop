@@ -378,7 +378,7 @@
         <div class="email-icon"></div>
         <div class="email-info">
           <p>If you have any question, feel free to contact us:</p>
-          <p style="color: #b3ebff">finllm2023@easychair.org</p>
+          <p style="color: #b3ebff">yanjiangpeng@efunds.com.cn</p>
         </div>
       </div>
     </div>

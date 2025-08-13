@@ -32,6 +32,7 @@
     </div>
     <div class="center-box w padding">
       <!-- <div class="center-img-box"></div> -->
+      <div class="mg-bottom"></div>
       <h1>Scope and Objective</h1>
       <div class="cente-text mg-bottom">
         Building on the success of FinLLM2023 in Macau, FinLLM2025 returns as a core satellite event of IJCAI 2025,
