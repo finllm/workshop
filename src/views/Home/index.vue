@@ -21,11 +21,17 @@
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
         (FinLLM 2025)@IJCAI 2025<br />
-        <span class="sub-text-date">Guangzhou, China, August 29, 2025</span>
+        <div class="sub-text-date">Guangzhou, China, August 29, 2025</div>
+        <button
+          class="registration"
+          @click="$router.push('/fcb2025')"
+        >
+          List of Awards
+        </button>
       </div>
     </div>
     <div class="center-box w padding">
-      <div class="center-img-box"></div>
+      <!-- <div class="center-img-box"></div> -->
       <h1>Scope and Objective</h1>
       <div class="cente-text mg-bottom">
         Building on the success of FinLLM2023 in Macau, FinLLM2025 returns as a core satellite event of IJCAI 2025,
@@ -334,6 +340,112 @@
           Deputy Chief Engineer of Ping An Technology Co., Ltd., China.
         </div>
       </div>
+      <h1>Meeting Agenda</h1>
+      <div class="cente-text mg-bottom">
+        <div class="table">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Item or report title</th>
+                <th>Host or reporter</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>08:30-08:35</td>
+                <td>Opening Speech</td>
+                <td>Shuoling Liu</td>
+              </tr>
+              <tr>
+                <td>08:35-09:05</td>
+                <td>TBD</td>
+                <td>Qiang Yang</td>
+              </tr>
+              <tr>
+                <td>09:05-09:35</td>
+                <td>Exploration of the Application and Optimization of Financial Large Models</td>
+                <td>Chuan Lu</td>
+              </tr>
+              <tr>
+                <td>09:35-10:05</td>
+                <td>TBD</td>
+                <td>阿里云专家</td>
+              </tr>
+              <tr>
+                <td>10:05-10:35</td>
+                <td>Large Invest Model</td>
+                <td>Jian Guo</td>
+              </tr>
+              <tr>
+                <td>10:35-10:50</td>
+                <td>Coffee Break</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>10:50-11:00</td>
+                <td>DeepFund: Will LLMs be Professional at Fund Investment? A Live Arena Perspective</td>
+                <td>Changlun Li</td>
+              </tr>
+              <tr>
+                <td>11:00-11:10</td>
+                <td>
+                  Advanced Financial Reasoning at Scale: A Comprehensive Evaluation of Large Language Models on CFA
+                  Level III
+                </td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>11:10-11:20</td>
+                <td>FinSphere, a Real-Time Stock Analysis Agent Powered by Instruction-Tuned LLMs and Domain Tools</td>
+                <td>Han Sijie</td>
+              </tr>
+              <tr>
+                <td>11:20-11:25</td>
+                <td>TULIP: Adapting Open-Source Large Language Models for Underrepresented</td>
+                <td>Irem Demirtas, Burak Payzun</td>
+              </tr>
+              <tr>
+                <td>11:25-11:30</td>
+                <td>A Multi-Level Sentiment Analysis Framework for Financial Texts</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>11:30-11:35</td>
+                <td>FinMarBa: A Market-Informed Dataset for Financial Sentiment Classification</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>11:35-11:40</td>
+                <td>
+                  Integration of Large Language Models and Environmental, Social, and Governance in Financial
+                  Investment: State of the Art and Key Takeaways
+                </td>
+                <td>Qianyu Lu</td>
+              </tr>
+              <tr>
+                <td>11:45-11:50</td>
+                <td>
+                  HARLF: Hierarchical Reinforcement Learning and Lightweight LLM-Driven Sentiment Integration for
+                  Financial Portfolio Optimization
+                </td>
+                <td>Benjamin CORIAT</td>
+              </tr>
+              <tr>
+                <td>11:50-11:55</td>
+                <td>Awarding ceromony</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>11:55-12:00</td>
+                <td>Ending talk</td>
+                <td>Shuoling Liu</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       <!-- <h1>The Main Conference Information</h1>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente">
@@ -468,6 +580,7 @@ export default {}
     margin-top: 20px;
     font-size: 16px;
     cursor: pointer;
+    line-height: 50px;
     @media (max-width: 750px) {
       width: 300px;
       height: 100px;
@@ -681,6 +794,63 @@ export default {}
     .p-text {
       font-size: 26px;
       font-weight: 700;
+    }
+    .table {
+      width: 100%;
+      margin-top: 20px;
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: hidden;
+      }
+
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      th:first-child,
+      td:first-child {
+        width: 200px;
+        min-width: 200px;
+      }
+
+      th:last-child,
+      td:last-child {
+        width: 320px;
+        min-width: 320px;
+        padding-left: 16px;
+      }
+
+      thead {
+        background-color: #f7f9fb;
+        color: #4774f4;
+        font-size: 26px;
+
+        th {
+          font-weight: 700;
+          font-size: 24px;
+        }
+      }
+
+      tbody {
+        tr {
+          &:nth-child(even) {
+            background-color: #f7f9fb;
+          }
+        }
+
+        td {
+          color: #81838c;
+          font-weight: 500;
+          font-size: 24px;
+          word-break: break-all;
+        }
+      }
     }
   }
   .card-box {
@@ -939,6 +1109,42 @@ export default {}
         & > div {
           line-height: 60px;
         }
+      }
+    }
+  }
+  .table {
+    table {
+      font-size: 36px;
+    }
+
+    th,
+    td {
+      padding: 12px 10px;
+      font-size: 36px;
+    }
+
+    thead {
+      th {
+        font-size: 36px;
+      }
+    }
+
+    tbody {
+      td {
+        font-size: 36px;
+      }
+
+      th:first-child,
+      td:first-child {
+        width: 340px;
+        min-width: 340px;
+      }
+
+      th:last-child,
+      td:last-child {
+        width: 340px;
+        min-width: 340px;
+        padding-left: 24px;
       }
     }
   }

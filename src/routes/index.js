@@ -5,6 +5,7 @@ import Home from '@/views/Home/index.vue'
 import Conference2023 from '@/views/Conference2023/index.vue'
 import Brochure from '@/views/Brochure/index.vue'
 import ConferenceBrochure from '@/views/ConferenceBrochure/index.vue'
+import ConferenceBrochure2025 from '@/views/ConferenceBrochure2025/index.vue'
 import Invitation from '@/views/2025/invitation/index.vue'
 import InvitationEN from '@/views/2025/invitationEN/index.vue'
 const routes = [
@@ -37,6 +38,11 @@ const routes = [
     path: '/fcb',
     name: 'ConferenceBrochure',
     component: ConferenceBrochure,
+  },
+  {
+    path: '/fcb2025',
+    name: 'ConferenceBrochure2025',
+    component: ConferenceBrochure2025,
   },
 ]
 
