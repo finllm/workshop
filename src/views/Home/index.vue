@@ -21,14 +21,24 @@
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
         (FinLLM 2025)@IJCAI 2025<br />
-        <div class="sub-text-date">Guangzhou, China, August 29, 2025</div>
-        <button
-          class="registration"
-          @click="$router.push('/fcb2025')"
-        >
-          Accepted Papers
-        </button>
+        <div class="sub-title">
+          Engineering Symposium on Theories and Applications<br />
+          of Financial Large Models<br />
+          <span>Guangzhou, China, August 29, 2025</span>
+        </div>
       </div>
+      <button
+        class="registration"
+        @click="$router.push('/fcb2025')"
+      >
+        2025 AcceptedList
+      </button>
+      <button
+        class="registration"
+        @click="$router.push('/fcb2023')"
+      >
+        2023 AcceptedList
+      </button>
     </div>
     <div class="center-box w padding">
       <!-- <div class="center-img-box"></div> -->
@@ -399,7 +409,7 @@
               <tr>
                 <td>11:10-11:20</td>
                 <td>FinSphere, a Real-Time Stock Analysis Agent Powered by Instruction-Tuned LLMs and Domain Tools</td>
-                <td>Han Sijie</td>
+                <td>Shijie Han</td>
               </tr>
               <tr>
                 <td>11:20-11:25</td>
@@ -545,19 +555,42 @@ export default {}
   background-size: 100% 100%;
   // display: flex;
   // justify-content: space-between;
-  padding-top: 144px;
+  padding-top: 90px;
   @media (max-width: 750px) {
     height: 1200px;
   }
   .sub-text {
+    position: relative;
     font-size: 43px;
     color: #ffffff;
     line-height: 60px;
     font-weight: 700;
-    margin-top: 50px;
+    padding-left: 20px;
+    .sub-title {
+      font-size: 35px;
+      color: rgba(255, 255, 255, 0.8);
+      margin-top: 20px;
+    }
     @media (max-width: 750px) {
       font-size: 80px;
       line-height: 1.5;
+      padding-left: 50px;
+      .sub-title {
+        font-size: 60px;
+      }
+    }
+    &::before {
+      position: absolute;
+      width: 10px;
+      content: '';
+      display: inline-block;
+      background-color: #4774f4;
+      left: 0;
+      top: 15px;
+      bottom: 15px;
+      @media (max-width: 750px) {
+        width: 30px;
+      }
     }
   }
   .sub-img {
@@ -573,7 +606,6 @@ export default {}
     }
   }
   .registration {
-    width: 150px;
     height: 50px;
     background-color: #4270f1;
     border: none;
@@ -581,7 +613,8 @@ export default {}
     margin-top: 20px;
     font-size: 16px;
     cursor: pointer;
-    line-height: 50px;
+    margin-right: 30px;
+    border-radius: 5px;
     @media (max-width: 750px) {
       width: 300px;
       height: 100px;

@@ -2,7 +2,7 @@
   <div class="conference-brochure">
     <div class="header">
       <div class="w padding flex">
-        <span>FinLLM 2025</span>
+        <span>FinLLM 2023</span>
         <div class="right">
           <img
             src="@/assets/img/ijcai.png"
@@ -14,71 +14,135 @@
     <div class="centen-box w padding">
       <h1 class="big-title">Accepted Papers</h1>
       <div class="cente-text mg-bottom">
-        <div class="cente-title mg">Changlun Li, Yao Shi, Yuyu Luo and Nan Tang</div>
-        DeepFund: Will LLMs be Professional at Fund Investment? A Live Arena Perspective
-        <div class="link">
-          (<a
-            href="https://arxiv.org/pdf/2503.18313"
-            target="_blank"
-            >https://arxiv.org/pdf/2503.18313</a
-          >)
+        <div class="cente-title mg">
+          Zhihua Jin, Xin Jiang, Xingbo Wang, Qun Liu, Yong Wang, Xiaozhe Ren and Huamin Qu
         </div>
+        NumGPT: Improving Numeracy Ability of Generative Pre-trained Models
+        <div class="link">
+          （<a
+            href="https://arxiv.org/abs/2109.03137"
+            target="_blank"
+            >https://arxiv.org/abs/2109.03137</a
+          >）
+        </div>
+
+        <div class="cente-title">Maxime Labonne and Sean Moran</div>
+        Spam-T5: Benchmarking Large Language Models for Few-Shot Email Spam Detection
+        <div class="link">
+          （<a
+            href="https://arxiv.org/abs/2304.01238"
+            target="_blank"
+            >https://arxiv.org/abs/2304.01238</a
+          >）
+        </div>
+
+        <div class="cente-title">Yinyu Lan, Yanru Wu, Wang Xu, Weiqiang Feng and Youhao Zhang</div>
+        Chinese Fine-Grained Financial Sentiment Analysis with Large Language Models
+        <div class="link">
+          （<a
+            href="https://arxiv.org/abs/2306.14096"
+            target="_blank"
+            >https://arxiv.org/abs/2306.14096</a
+          >）
+        </div>
+
+        <div class="cente-title">Junyang Li, Shuoling Liu, Liyuan Chen and Qiang Yang</div>
+        Financial Large Language Models: A Survey
+
+        <div class="cente-title">Ziao Wang, Jianning Wang, Junda Wu and Xiaofeng Zhang</div>
+        An Effective Data Creation Pipeline for Generating High-quality Financial Instruction Data
+        <div class="link">
+          （<a
+            href="https://arxiv.org/abs/2308.01415"
+            target="_blank"
+            >https://arxiv.org/abs/2308.01415</a
+          >）
+        </div>
+
+        <div class="cente-title">Boyu Zhang, Hongyang Yang and Xiao-Yang Liu</div>
+        Instruct-FinGPT: Financial Sentiment Analysis by Instruction Tuning of General-Purpose Large Language Models
+        <div class="link">
+          （<a
+            href="https://arxiv.org/abs/2306.12659"
+            target="_blank"
+            >https://arxiv.org/abs/2306.12659</a
+          >）
+        </div>
+
+        <div class="cente-title">Hongyang Yang, Xiao-Yang Liu and Christina Dan Wang</div>
+        FinGPT: Open-Source Financial Large Language Models
+        <div class="link">
+          （<a
+            href="https://arxiv.org/abs/2306.06031"
+            target="_blank"
+            >https://arxiv.org/abs/2306.06031</a
+          >）
+        </div>
+
+        <div class="cente-title">Liangru Xie, Wenxiang Jiang, Yiming Luo, Yushan Pan and Hao Wang</div>
+        The Challenges of LLMs in Financial Services
 
         <div class="cente-title">
-          Pranam Shetty, Abhisek Upadhayaya, Parth Mitesh Shah, Srikanth Jagabathula, Shilpi Nayak and Anna Joo Fee
+          Yujie Ding, Shuai Jia, Tianyi Ma, Bingcheng Mao, Xiuze Zhou, Liuliu Li, Dongming Han and Ming Chen
         </div>
-        Advanced Financial Reasoning at Scale: A Comprehensive Evaluation of Large Language Models on CFA Level III
+        Integrating Stock Features and Global Information via Large Language Models for Enhanced Stock Return Prediction
         <div class="link">
           （<a
-            href="https://arxiv.org/abs/2507.02954"
+            href="https://arxiv.org/abs/2310.05627"
             target="_blank"
-            >https://arxiv.org/abs/2507.02954</a
+            >https://arxiv.org/abs/2310.05627</a
           >）
         </div>
 
-        <div class="cente-title">Shijie Han, Jingshu Zhang, Yiqing Shen, Kaiyuan Yan and Hongguang Li</div>
-        FinSphere, a Real-Time Stock Analysis Agent Powered by Instruction-Tuned LLMs and Domain Tools
+        <div class="cente-title">Haohan Zhang, Fengrui Hua, Chengjin Xu, Jian Guo, Hao Kong and Ruiting Zuo</div>
+        Unveiling the Potential of Sentiment: Can Large Language Models Predict Chinese Stock Price Movements?
         <div class="link">
           （<a
-            href="https://arxiv.org/abs/2501.12399"
+            href="https://arxiv.org/abs/2306.14222"
             target="_blank"
-            >https://arxiv.org/abs/2501.12399</a
+            >https://arxiv.org/abs/2306.14222</a
           >）
         </div>
 
-        <div class="cente-title">Irem Demirtas, Burak Payzun and Secil Arslan</div>
-        TULIP: Adapting Open-Source Large Language Models for Underrepresented Languages and Specialized Financial Tasks
+        <div class="cente-title">Shuoling Liu, Gaoguo Jia, Yuhang Jiang, Liyuan Chen and Qiang Yang</div>
+        Can ChatGPT Overcome Behavioral Biases in the Financial Sector? Classify-and-Rethink: Multi-Step Zero-Shot
+        Reasoning in the Gold Investment
+        <div class="link">
+          （<a
+            href="https://arxiv.org/abs/2411.13599"
+            target="_blank"
+            >https://arxiv.org/abs/2411.13599</a
+          >）
+        </div>
+
+        <div class="cente-title">Ziao Wang, Yuhang Li, Junda Wu, Jaehyeon Soon and Xiaofeng Zhang</div>
+        FinVis-GPT: A Multimodal Large Language Model for Financial Chart Analysis
         <div class="link">
           (<a
-            href="https://arxiv.org/abs/2503.15485"
+            href="https://arxiv.org/abs/2308.01430"
             target="_blank"
-            >https://arxiv.org/abs/2503.15485</a
+            >https://arxiv.org/abs/2308.01430</a
           >)
         </div>
 
-        <div class="cente-title">Eric Benhamou, Baptiste Lefort, Beatrice Guez and Jean-Jacques Ohana</div>
-        FinMarBa: A Market-Informed Dataset for Financial Sentiment Classification
+        <div class="cente-title">Xuanyu Zhang, Qing Yang and Dongliang Xu</div>
+        XuanYuan: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
         <div class="link">
-          （<a
-            href="https://arxiv.org/pdf/2507.22932"
+          (<a
+            href="https://arxiv.org/abs/2305.12002"
             target="_blank"
-            >https://arxiv.org/pdf/2507.22932</a
-          >）
+            >https://arxiv.org/abs/2305.12002</a
+          >)
         </div>
 
-        <div class="cente-title">Qianyu Lu, Qiang Yang, Mengzhen Fan, Shuyan Li</div>
-        Integration of Large Language Models and Environmental, Social, and Governance (ESG) in Financial Investment:
-        State-of-the-Art and Key Takeaways
-
-        <div class="cente-title">Benjamin Coriat and Eric Benhamou</div>
-        HARLF: Hierarchical Reinforcement Learning and Lightweight LLM-Driven Sentiment Integration for Financial
-        Portfolio Optimization
+        <div class="cente-title">Xuanyu Zhang, Bingbing Li and Qing Yang</div>
+        CGCE: A Chinese Generative Chat Evaluation Benchmark for General and Financial Domains
         <div class="link">
-          （<a
-            href="https://arxiv.org/abs/2507.18560"
+          (<a
+            href="https://arxiv.org/abs/2305.14471"
             target="_blank"
-            >https://arxiv.org/abs/2507.18560</a
-          >）
+            >https://arxiv.org/abs/2305.14471</a
+          >)
         </div>
       </div>
     </div>
@@ -100,11 +164,6 @@ export default {}
 
 <style lang="less" scoped>
 @import '../../style/public.less';
-.conference-brochure {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
 .flex {
   display: flex;
   align-items: center;
@@ -202,7 +261,6 @@ export default {}
 }
 .centen-box {
   margin-top: 50px;
-  flex: 1;
   h1 {
     font-size: 32px;
     color: #0d152e;
