@@ -149,97 +149,8 @@
           </p>
         </div> -->
       </div>
-      <!-- <h1>Submission Instructions</h1>
-      <div class="cente-text mg-bottom">
-        <div class="cente-text-cente justify">
-          Submissions should be a maximum of 7 and a minimum of 4 pages including figures and tables in IJCAI'23 format.
-          Additional pages containing only cited references are allowed. We do accept submissions of work recently
-          published or currently under review. The submissions can contain author details. The Symposium will not have
-          formal proceedings, but authors of accepted papers can choose to have their work published on the Symposium
-          webpage. Top selected papers from the Symposium will be invited to publish in a journal special issue.
-          <br /><br />
-
-          We recommend submitting your paper through EasyChair. The paper submission link is as follows:<br />
-          <a href="https://easychair.org/conferences/?conf=finllm2023">
-            https://easychair.org/conferences/?conf=finllm2023</a
-          >
-        </div>
-      </div> -->
     </div>
-    <!-- <div class="middle">
-      <div class="w padding">
-        <h1>Tentative Schedule</h1>
-        <div>
-          <div class="middle-mg">
-            <span>Morning:</span>
-            <br />• 08:30 - 09:00 Registeration<br />• 09:00 - 10:00 Invited talks <br />• 10:00 - 10:45 Oral
-            presentations <br />• 10:45 - 11:00 Break <br />• 11:00 - 11:45 Oral presentations
-          </div>
-          <div>
-            <span>Afternoon:</span>
-            <br />• 13:00 - 14:30 Invited talks <br />• 14:30 - 15:15 Oral presentations <br />• 15:15 - 15:30 Break
-            <br />• 15:30 - 16:30 Panel Discussion <br />• 16:30 - 17:00 Award Ceremony
-          </div>
-        </div>
-      </div>
-    </div> -->
     <div class="center-box w padding">
-      <!-- <h1>Organization</h1> -->
-      <!-- <div class="item-box">
-        <div class="item-box-right">
-          <p>Invited Speakers</p>
-          <div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/Mark Dredze.png"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Mark Dredze(online)</p>
-                <p class="note">Bloomberg</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/白硕.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Shuo Bai</p>
-                <p class="note">Hundsun Technologies</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/王巍巍.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Weiwei Wang</p>
-                <p class="note">Alibaba DAMO Academy</p>
-              </div>
-            </div>
-            <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/皱胜.jpg"
-                  alt=""
-                />
-              </div>
-              <div class="info">
-                <p class="name">Sheng Zou</p>
-                <p class="note">Archforce Technology</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
       <p><br /></p>
       <h1>Organizers of Organizing Committee</h1>
       <div class="cente-text mg-bottom">
@@ -255,7 +166,7 @@
               </div>
               <div class="info">
                 <p class="name">Qiang Yang</p>
-                <p class="note">WeBank/HKUST</p>
+                <p class="note">PolyU</p>
               </div>
             </div>
             <div class="info-box">
@@ -327,10 +238,10 @@
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
           <span>Qiang Yang: </span>
-          Chief AI Officer of WeBank, Department Head of Computer Science and Engineering at the Hong Kong University of
-          Science and Technology, New Bright Professorship in Engineering. AAAI Fellow, IEEE Fellow, AAAS Fellow, IAPR
-          Fellow and ACM Distinguished Members. President of IJCAI (2017-2019). Vice Chair of ACM SIGART (SIGAI)
-          (2009-2012), PC Chair and Co-Chair: IJCAI(2015), ACM KDD(2010).<br />
+          Director of Academy of Artificial Intelligence, Chief Artificial Intelligence Officer, and half-time Chair
+          Professor of AI in the Department of Data Science and Artificial Intelligence at Hongkong PolyU. AAAI Fellow,
+          IEEE Fellow, AAAS Fellow, IAPR Fellow and ACM Distinguished Members. President of IJCAI (2017-2019). Vice
+          Chair of ACM SIGART (SIGAI) (2009-2012), PC Chair and Co-Chair: IJCAI(2015), ACM KDD(2010).<br />
           Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
           ><br /><br />
@@ -366,73 +277,73 @@
               <tr>
                 <td>08:30-08:35</td>
                 <td>Opening Speech</td>
-                <td>Shuoling Liu</td>
+                <td>Shuoling Liu, E Fund</td>
               </tr>
               <tr>
                 <td>08:35-09:05</td>
                 <td>Continual Federated Learning</td>
-                <td>Qiang Yang</td>
+                <td>Professor Qiang Yang, PolyU</td>
               </tr>
               <tr>
                 <td>09:05-09:35</td>
                 <td>Exploration of the Application and Optimization of Financial Large Models</td>
-                <td>Chuan Lu</td>
+                <td>LuChuan, NVIDIA</td>
               </tr>
               <tr>
                 <td>09:35-10:05</td>
                 <td>TBD</td>
-                <td>阿里云专家</td>
+                <td>Alibaba Tongyi Lab</td>
               </tr>
               <tr>
-                <td>10:05-10:35</td>
-                <td>Large Invest Model</td>
-                <td>Jian Guo</td>
-              </tr>
-              <tr>
-                <td>10:35-10:50</td>
+                <td>10:05-10:15</td>
                 <td>Coffee Break</td>
-                <td>-</td>
+                <td></td>
               </tr>
               <tr>
-                <td>10:50-11:00</td>
-                <td>DeepFund: Will LLMs be Professional at Fund Investment? A Live Arena Perspective</td>
-                <td>Changlun Li</td>
+                <td>10:15-10:45</td>
+                <td>Large Invest Model</td>
+                <td>Professor Jian Guo, IDEA</td>
+              </tr>
+              <tr>
+                <td>10:45-11:00</td>
+                <td>The Exploration of LLMs in Finance: A Case Study on Compliance and Security</td>
+                <td>Junyang Li, E Fund</td>
               </tr>
               <tr>
                 <td>11:00-11:10</td>
+                <td>DeepFund: Will LLMs be Professional at Fund Investment? A Live Arena Perspective</td>
+                <td>Changlun Li, HKUST</td>
+              </tr>
+              <tr>
+                <td>11:10-11:20</td>
                 <td>
                   Advanced Financial Reasoning at Scale: A Comprehensive Evaluation of Large Language Models on CFA
                   Level III
                 </td>
-                <td>-</td>
+                <td>Rochester Institute of Technology (Video)</td>
               </tr>
               <tr>
-                <td>11:10-11:20</td>
+                <td>11:20-11:30</td>
                 <td>FinSphere, a Real-Time Stock Analysis Agent Powered by Instruction-Tuned LLMs and Domain Tools</td>
-                <td>Shijie Han</td>
-              </tr>
-              <tr>
-                <td>11:20-11:25</td>
-                <td>TULIP: Adapting Open-Source Large Language Models for Underrepresented</td>
-                <td>Irem Demirtas, Burak Payzun</td>
-              </tr>
-              <tr>
-                <td>11:25-11:30</td>
-                <td>A Multi-Level Sentiment Analysis Framework for Financial Texts</td>
-                <td>-</td>
+                <td>Shijie Han, Columbia University</td>
               </tr>
               <tr>
                 <td>11:30-11:35</td>
-                <td>FinMarBa: A Market-Informed Dataset for Financial Sentiment Classification</td>
-                <td>-</td>
+                <td>TULIP: Adapting Open-Source Large Language Models for Underrepresented</td>
+                <td>İrem Demirtaş, Burak Payzun Prometeia SPA</td>
               </tr>
               <tr>
                 <td>11:35-11:40</td>
+                <td>FinMarBa: A Market-Informed Dataset for Financial Sentiment Classification</td>
+                <td>Ai For Alpha, France (Video)</td>
+              </tr>
+              <tr>
+                <td>11:40-11:45</td>
                 <td>
                   Integration of Large Language Models and Environmental, Social, and Governance in Financial
                   Investment: State of the Art and Key Takeaways
                 </td>
-                <td>Qianyu Lu</td>
+                <td>Qianyu Lu, University of Cambridge</td>
               </tr>
               <tr>
                 <td>11:45-11:50</td>
@@ -440,31 +351,22 @@
                   HARLF: Hierarchical Reinforcement Learning and Lightweight LLM-Driven Sentiment Integration for
                   Financial Portfolio Optimization
                 </td>
-                <td>Benjamin CORIAT</td>
+                <td>Benjamin CORIAT, CentraleSupelec, France</td>
               </tr>
               <tr>
                 <td>11:50-11:55</td>
                 <td>Awarding ceromony</td>
-                <td>-</td>
+                <td></td>
               </tr>
               <tr>
                 <td>11:55-12:00</td>
                 <td>Ending talk</td>
-                <td>Shuoling Liu</td>
+                <td>Shuoling Liu, E Fund</td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
-
-      <!-- <h1>The Main Conference Information</h1>
-      <div class="cente-text mg-bottom">
-        <div class="cente-text-cente">
-          IJCAI 2023, <br />THE 32nd INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE. <br />19th-25th August
-          2023 <br />Macao, S.A.R <br />
-          <a href="https://ijcai-23.org/">https://ijcai-23.org/</a>
-        </div>
-      </div> -->
     </div>
     <div class="footer padding">
       <div>
