@@ -48,13 +48,13 @@
 
         <div class="cente-title">Irem Demirtas, Burak Payzun and Secil Arslan</div>
         TULIP: Adapting Open-Source Large Language Models for Underrepresented Languages and Specialized Financial Tasks
-        <div class="link">
+        <!-- <div class="link">
           (<a
             href="https://arxiv.org/abs/2503.15485"
             target="_blank"
             >https://arxiv.org/abs/2503.15485</a
           >)
-        </div>
+        </div> -->
 
         <div class="cente-title">Eric Benhamou, Baptiste Lefort, Beatrice Guez and Jean-Jacques Ohana</div>
         FinMarBa: A Market-Informed Dataset for Financial Sentiment Classification
