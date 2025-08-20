@@ -291,8 +291,8 @@
               </tr>
               <tr>
                 <td>09:35-10:05</td>
-                <td>TBD</td>
-                <td>Alibaba Tongyi Lab</td>
+                <td>Qwen Dianjin: Advances and Insights</td>
+                <td>Lifan Guo, Alibaba</td>
               </tr>
               <tr>
                 <td>10:05-10:15</td>
