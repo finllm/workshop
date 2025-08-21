@@ -287,7 +287,7 @@
               <tr>
                 <td>09:05-09:35</td>
                 <td>Exploration of the Application and Optimization of Financial Large Models</td>
-                <td>LuChuan, NVIDIA</td>
+                <td>Luchuan, NVIDIA</td>
               </tr>
               <tr>
                 <td>09:35-10:05</td>
