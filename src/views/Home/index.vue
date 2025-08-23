@@ -305,17 +305,17 @@
                 <td>Professor Jian Guo, IDEA</td>
               </tr>
               <tr>
-                <td>10:45-11:00</td>
+                <td>10:45-10:55</td>
                 <td>The Exploration of LLMs in Finance: A Case Study on Compliance and Security</td>
                 <td>Junyang Li, E Fund</td>
               </tr>
               <tr>
-                <td>11:00-11:10</td>
+                <td>10:55-11:05</td>
                 <td>DeepFund: Will LLMs be Professional at Fund Investment? A Live Arena Perspective</td>
                 <td>Changlun Li, HKUST</td>
               </tr>
               <tr>
-                <td>11:10-11:20</td>
+                <td>11:05-11:15</td>
                 <td>
                   Advanced Financial Reasoning at Scale: A Comprehensive Evaluation of Large Language Models on CFA
                   Level III
@@ -323,9 +323,14 @@
                 <td>Rochester Institute of Technology (Video)</td>
               </tr>
               <tr>
-                <td>11:20-11:30</td>
+                <td>11:15-11:25</td>
                 <td>FinSphere, a Real-Time Stock Analysis Agent Powered by Instruction-Tuned LLMs and Domain Tools</td>
                 <td>Shijie Han, Columbia University</td>
+              </tr>
+              <tr>
+                <td>11:25-11:30</td>
+                <td>MulFSA: Multi-level Financial Sentiment Analysis Framework for Bond Market</td>
+                <td>Yiwei Liu</td>
               </tr>
               <tr>
                 <td>11:30-11:35</td>

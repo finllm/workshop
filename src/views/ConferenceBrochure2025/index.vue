@@ -46,6 +46,9 @@
           >）
         </div>
 
+        <div class="cente-title">Yiwei Liu, Junbo Wang, Lei Long, Xin Li, Ruiting Ma, Yuankai Wu and Xuebin Chen</div>
+        MulFSA: Multi-level Financial Sentiment Analysis Framework for Bond Market
+
         <div class="cente-title">Irem Demirtas, Burak Payzun and Secil Arslan</div>
         TULIP: Adapting Open-Source Large Language Models for Underrepresented Languages and Specialized Financial Tasks
         <!-- <div class="link">
