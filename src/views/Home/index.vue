@@ -257,7 +257,7 @@
           <span>Prof. Bo An: </span>
           Nanyang Technological University, Singapore.<br /><br />
           <span>Prof. Jian Guo: </span>
-          Digital Economy Institute of Guangdong-Hong Kong-Macao Greater Bay Area (IDEA), China.<br /><br />
+          International Digital Economy Academy (IDEA), China.<br /><br />
           <span>Dr. Jianzong Wang: </span>
           Deputy Chief Engineer of Ping An Technology Co., Ltd., China.
         </div>
