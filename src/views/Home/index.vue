@@ -287,7 +287,7 @@
               <tr>
                 <td>09:05-09:35</td>
                 <td>Exploration of the Application and Optimization of Financial Large Models</td>
-                <td>Luchuan, NVIDIA</td>
+                <td>Chuan Lu, NVIDIA</td>
               </tr>
               <tr>
                 <td>09:35-10:05</td>
@@ -302,7 +302,7 @@
               <tr>
                 <td>10:15-10:45</td>
                 <td>Large Invest Model</td>
-                <td>Professor Jian Guo, IDEA</td>
+                <td>Professor Jian Guo & Dr. Zhouchi Lin, IDEA</td>
               </tr>
               <tr>
                 <td>10:45-10:55</td>
@@ -356,7 +356,7 @@
                   HARLF: Hierarchical Reinforcement Learning and Lightweight LLM-Driven Sentiment Integration for
                   Financial Portfolio Optimization
                 </td>
-                <td>Benjamin CORIAT, CentraleSupelec, France</td>
+                <td>Benjamin Coriat, CentraleSupelec, France</td>
               </tr>
               <tr>
                 <td>11:50-11:55</td>
