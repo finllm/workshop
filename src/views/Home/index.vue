@@ -486,6 +486,14 @@ export default {}
         font-size: 60px;
       }
     }
+    @media (max-width: 375px) {
+      font-size: 70px;
+      line-height: 1.4;
+      padding-left: 16px;
+      .sub-title {
+        font-size: 60px;
+      }
+    }
     &::before {
       position: absolute;
       width: 10px;
@@ -497,6 +505,9 @@ export default {}
       bottom: 15px;
       @media (max-width: 750px) {
         width: 30px;
+      }
+      @media (max-width: 375px) {
+        width: 10px;
       }
     }
   }
