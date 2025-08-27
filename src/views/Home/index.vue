@@ -292,7 +292,7 @@
               <tr>
                 <td>09:35-10:05</td>
                 <td>Qwen Dianjin: Advances and Insights</td>
-                <td>Lifan Guo, Alibaba</td>
+                <td>Jie Zhu</td>
               </tr>
               <tr>
                 <td>10:05-10:15</td>
