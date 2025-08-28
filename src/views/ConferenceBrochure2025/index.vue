@@ -48,16 +48,23 @@
 
         <div class="cente-title">Yiwei Liu, Junbo Wang, Lei Long, Xin Li, Ruiting Ma, Yuankai Wu and Xuebin Chen</div>
         MulFSA: Multi-level Financial Sentiment Analysis Framework for Bond Market
+        <div class="link">
+          (<a
+            href="https://arxiv.org/abs/2504.02429"
+            target="_blank"
+            >https://arxiv.org/abs/2504.02429</a
+          >)
+        </div>
 
         <div class="cente-title">Irem Demirtas, Burak Payzun and Secil Arslan</div>
         TULIP: Adapting Open-Source Large Language Models for Underrepresented Languages and Specialized Financial Tasks
-        <!-- <div class="link">
+        <div class="link">
           (<a
-            href="https://arxiv.org/abs/2503.15485"
+            href="https://arxiv.org/abs/2508.16243"
             target="_blank"
-            >https://arxiv.org/abs/2503.15485</a
+            >https://arxiv.org/abs/2508.16243</a
           >)
-        </div> -->
+        </div>
 
         <div class="cente-title">Eric Benhamou, Baptiste Lefort, Beatrice Guez and Jean-Jacques Ohana</div>
         FinMarBa: A Market-Informed Dataset for Financial Sentiment Classification
@@ -90,7 +97,7 @@
         <div class="email-icon"></div>
         <div class="email-info">
           <p>If you have any question, feel free to contact us:</p>
-          <p style="color: #b3ebff">finllm2023@easychair.org</p>
+          <p style="color: #b3ebff">yanjiangpeng@efunds.com.cn</p>
         </div>
       </div>
     </div>
