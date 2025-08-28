@@ -237,7 +237,7 @@
       </div>
       <div class="cente-text mg-bottom">
         <div class="cente-text-cente justify">
-          <span>Qiang Yang: </span>
+          <span>Prof. Qiang Yang: </span>
           Director of Academy of Artificial Intelligence, Chief Artificial Intelligence Officer, and half-time Chair
           Professor of AI in the Department of Data Science and Artificial Intelligence at Hongkong PolyU. AAAI Fellow,
           IEEE Fellow, AAAS Fellow, IAPR Fellow and ACM Distinguished Members. President of IJCAI (2017-2019). Vice
@@ -245,9 +245,9 @@
           Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
             >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
           ><br /><br />
-          <span>Liyuan Chen: </span>
+          <span>Ms. Liyuan Chen: </span>
           Vice President of E Fund Management, Chairperson of E Fund FinTech Executive Committee.<br /><br />
-          <span>Shuoling Liu: </span>
+          <span>Dr. Shuoling Liu: </span>
           Cheif Information Officer of E Fund Management, Member of E Fund FinTech Executive Committee, Head of
           Innovation Lab, Member of the FinTech Special Committee of AMAC.<br /><br />
           <span>Prof. Xiu Li: </span>
