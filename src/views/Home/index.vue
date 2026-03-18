@@ -124,7 +124,12 @@
         venue in person. In addition, multiple submissions of the same paper to more than one IJCAI workshop are
         forbidden.<br /><br />
 
-        <span>Easychair submission site:</span> [Link to be updated]<br />
+        <span>Easychair submission site:</span>
+        <a
+          href="https://easychair.org/conferences/?conf=finllmijcai2026"
+          target="_blank"
+          >https://easychair.org/conferences/?conf=finllmijcai2026</a
+        ><br />
         <span>For enquiries, please email to:</span>
         <a href="mailto:yanjiangpeng@efunds.com.cn">yanjiangpeng@efunds.com.cn</a>
       </div>
@@ -188,7 +193,10 @@
             </div>
           </div>
         </div>
-        <div style="margin-top: 20px; font-size: 18px; line-height: 1.8">
+        <div
+          class="cente-text"
+          style="margin-top: 20px"
+        >
           <p>
             <strong>Prof. Qiang Yang:</strong> Director of Academy of Artificial Intelligence, Chief Artificial
             Intelligence Officer, and half-time Chair Professor of AI in the Department of Data Science and Artificial
@@ -220,7 +228,10 @@
             </div>
           </div>
         </div>
-        <div style="margin-top: 20px; font-size: 18px; line-height: 1.8">
+        <div
+          class="cente-text"
+          style="margin-top: 20px"
+        >
           <p>
             <strong>Dr. Shuoling Liu:</strong> Chief Information Officer of E Fund Management, Member of E Fund FinTech
             Executive Committee, Head of Innovation Lab, Member of the FinTech Special Committee of AMAC.
@@ -233,40 +244,48 @@
         <div class="centet-people">
           <div class="people-box">
             <div class="info-box">
-              <div
-                class="avt"
-                style="background-color: #e0e0e0"
-              ></div>
+              <div class="avt">
+                <img
+                  src="@/assets/img/XiaojunZeng.png"
+                  alt=""
+                />
+              </div>
               <div class="info">
                 <p class="name">Xiaojun Zeng</p>
                 <p class="note">The University of Manchester</p>
               </div>
             </div>
             <div class="info-box">
-              <div
-                class="avt"
-                style="background-color: #e0e0e0"
-              ></div>
+              <div class="avt">
+                <img
+                  src="@/assets/img/ZhongtianSun.jpg"
+                  alt=""
+                />
+              </div>
               <div class="info">
                 <p class="name">Zhongtian Sun</p>
                 <p class="note">University of Kent</p>
               </div>
             </div>
             <div class="info-box">
-              <div
-                class="avt"
-                style="background-color: #e0e0e0"
-              ></div>
+              <div class="avt">
+                <img
+                  src="@/assets/img/XiuLi.png"
+                  alt=""
+                />
+              </div>
               <div class="info">
                 <p class="name">Xiu Li</p>
                 <p class="note">Tsinghua University</p>
               </div>
             </div>
             <div class="info-box">
-              <div
-                class="avt"
-                style="background-color: #e0e0e0"
-              ></div>
+              <div class="avt">
+                <img
+                  src="@/assets/img/QianQianXie.jpg"
+                  alt=""
+                />
+              </div>
               <div class="info">
                 <p class="name">Qianqian Xie</p>
                 <p class="note">Wuhan University</p>
@@ -282,20 +301,24 @@
         <div class="centet-people">
           <div class="people-box">
             <div class="info-box">
-              <div
-                class="avt"
-                style="background-color: #e0e0e0"
-              ></div>
+              <div class="avt">
+                <img
+                  src="@/assets/img/jiangpengyan.png"
+                  alt=""
+                />
+              </div>
               <div class="info">
                 <p class="name">Jiangpeng Yan</p>
                 <p class="note">E Fund Management Co., Ltd.</p>
               </div>
             </div>
             <div class="info-box">
-              <div
-                class="avt"
-                style="background-color: #e0e0e0"
-              ></div>
+              <div class="avt">
+                <img
+                  src="@/assets/img/yuchenshi.png"
+                  alt=""
+                />
+              </div>
               <div class="info">
                 <p class="name">Yuchen Shi</p>
                 <p class="note">E Fund Management Co., Ltd.</p>
@@ -317,7 +340,7 @@
 
       <h1>Meeting Agenda</h1>
       <div class="cente-text mg-bottom">
-        <p style="font-size: 20px; color: #81838c">To be announced.</p>
+        <p class="text">To be announced.</p>
       </div>
     </div>
 
