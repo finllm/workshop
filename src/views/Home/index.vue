@@ -8,7 +8,7 @@
     </div>
     <div class="header">
       <div class="w padding flex">
-        <span>FinLLM 2025</span>
+        <span>FinLLM 2026</span>
         <div class="right">
           <img
             src="@/assets/img/ijcai.png"
@@ -20,142 +20,147 @@
     <div class="subtitle padding w">
       <div class="sub-text">
         International Symposium on <br />Large Language Models for Financial Services<br />
-        (FinLLM 2025)@IJCAI 2025<br />
+        (FinLLM@IJCAI2026)<br />
         <div class="sub-title">
-          Engineering Symposium on Theories and Applications<br />
-          of Financial Large Models<br />
-          <span>Guangzhou, China, August 29, 2025</span>
+          In Conjunction with IJCAI2026<br />
+          <span>Bremen, Germany, August 15-17, 2026</span>
         </div>
       </div>
       <button
         class="registration"
+        @click="$router.push('/fcb2026')"
+      >
+        2026 Accepted Papers
+      </button>
+      <button
+        class="registration"
         @click="$router.push('/fcb2025')"
       >
-        2025 AcceptedList
+        2025 Accepted Papers
       </button>
       <button
         class="registration"
         @click="$router.push('/fcb2023')"
       >
-        2023 AcceptedList
+        2023 Accepted Papers
       </button>
     </div>
     <div class="center-box w padding">
-      <!-- <div class="center-img-box"></div> -->
       <div class="mg-bottom"></div>
       <h1>Scope and Objective</h1>
       <div class="cente-text mg-bottom">
-        Building on the success of FinLLM2023 in Macau, FinLLM2025 returns as a core satellite event of IJCAI 2025,
-        scheduled for <b>August 29, 2025</b> in Guangzhou. This symposium continues to bridge pretrained large-language
-        models (LLMs) with financial services, addressing breakthroughs in technology, real-world applications, and
-        emerging challenges. <br /><br />
+        Building on the resounding success of our previous symposiums—FinLLM@IJCAI 2023 in Macau and the dual-city
+        FinLLM@IJCAI 2025 in Montreal & Guangzhou—FinLLM 2026 returns as a core satellite event of IJCAI 2026. Large
+        Language Models (LLMs) have consistently demonstrated transformative potential in the financial sector,
+        automating complex tasks ranging from financial forecasting and risk management to sentiment analysis and
+        insight extraction.<br /><br />
 
-        LLMs have demonstrated transformative potential in financial forecasting, risk management, and sentiment
-        analysis, automating tasks like financial report analysis and insight extraction. FinLLM2025 aims to provide a
-        global platform for stakeholders to share novel research, exchange industry best practices, and debate the
-        future of LLM integration in finance.<br /><br />
+        The landscape of financial technology is now experiencing a paradigm shift from conversational LLMs to highly
+        autonomous AI agents. The explosive growth of open-source agentic frameworks, such as OpenClaw, is democratizing
+        complex financial operations. This evolution is enabling the rise of the "One-Person Company" (OPC)
+        organizational paradigm—where lean teams or solo founders can orchestrate multi-agent systems to autonomously
+        handle quantitative analysis, algorithmic trading, and portfolio management at an enterprise scale.<br /><br />
+
+        As the deployment of these systems deepens, new critical frontiers have emerged. A major focus is the
+        collaboration between large and small models, seeking the optimal balance between the robust reasoning of
+        cloud-based foundation models and the latency/privacy benefits of local, smaller models. Furthermore, the
+        economic efficiency of token consumption in high-frequency financial applications, the robust security of
+        autonomous execution, and the complex landscape of bias diversity in global finance have become central to
+        sustainable AI integration.<br /><br />
+
+        FinLLM 2026 aims to provide a global platform for academic researchers, industry practitioners, and policymakers
+        to share novel research, exchange best practices, and debate the future of AI in finance.
+      </div>
+
+      <h1>Call for Papers</h1>
+      <div class="cente-text mg-bottom">
+        We invite original research contributions, position papers, and work-in-progress reports. The workshop topics
+        include but are not limited to:<br /><br />
+
         <span
           class="p-text"
           style="font-weight: 700"
-          >Thematic Focus</span
+          >1. Architectures, Agentic Workflows & Model Collaboration:</span
         ><br />
-        1. Expanding Applications & Best Practices<br />
-        Exploring untapped use cases (e.g., smart trading, cross-lingual analysis) and refining workflows for seamless
-        LLM integration.<br /><br />
-        2. Overcoming Efficiency, Effectiveness, & Trust Challenges<br />
-        Addressing data privacy, model interpretability, bias mitigation, and regulatory compliance in financial LLM
-        applications.
+        • Synergistic frameworks combining Large Foundation Models (Cloud) and Small Specialized Models (Edge/Local) in
+        finance.<br />
+        • Autonomous AI agents (e.g., OpenClaw) and the "One-Person Company" (OPC) organizational paradigm.<br />
+        • Multi-agent systems (Manager/Worker frameworks) for complex financial decision-making and smart trading.<br />
+        • Multimodal financial data modeling and cross-lingual architectures for global finance.<br /><br />
+
+        <span
+          class="p-text"
+          style="font-weight: 700"
+          >2. Efficiency, Token Economics & Optimization:</span
+        ><br />
+        • Token economics and cost-effective deployment strategies for financial LLM applications.<br />
+        • Resource-efficient fine-tuning, inference, and distillation for high-frequency financial tasks.<br />
+        • Sustainable scaling of multi-agent interactions in enterprise environments.<br /><br />
+
+        <span
+          class="p-text"
+          style="font-weight: 700"
+          >3. Security, Trust & Ethics in Autonomous Finance:</span
+        ><br />
+        • Advanced security protocols and permission controls for autonomous financial AI agents.<br />
+        • Evaluating and managing bias diversity, fairness, and cultural alignment in cross-border financial
+        predictions.<br />
+        • Real-time model validation, hallucination mitigation, and systemic stability in algorithmic trading.<br />
+        • Cross-border data privacy compliance and regulatory alignment for agentic AI.
       </div>
-      <h1>Call for Papers & Updates</h1>
+
+      <h1>Submission Instructions</h1>
       <div class="cente-text mg-bottom">
-        <div class="cente-text-cente flex">
-          <div class="text">
-            <span>Submission Updates</span>
-            <br />
-            <b>• Original Submissions (closed on June 6, 2025):</b><br />
-            &nbsp;&nbsp;&nbsp;&nbsp;∘ Two outstanding student authors have been awarded sponsorship for IJCAI 2025
-            registration fees.<br />
-            &nbsp;&nbsp;&nbsp;&nbsp;∘ Selected papers have been notified and recommended for publication in the FITEE
-            special issue "Theory and Applications of Financial Large Models" (SCI-E indexed, IF 2.7).<br />
-            <b>• Extended Submission Period (open until July 15, 2025):</b><br />
-            We welcome late submissions for workshop presentation consideration. Submissions will be evaluated for
-            innovative research on LLM applications in finance, with selected authors invited to showcase their work at
-            FinLLM2025.<br /><br />
-          </div>
-        </div>
-        <div class="cente-text-cente flex">
-          <div class="text">
-            <span>Submission Guidelines</span>
-            <br />
-            • Submit via <a href="https://easychair.org/account2/signin?l=5508383540203630141">EasyChair.</a><br />
-            • Follow <a href="https://www.fitee.zjujournals.com/en/about/7144/">FITEE template</a> or IJCAI 2025
-            formatting (English only).<br />
-            • Note: Late submissions will not be considered for FITEE publication but may qualify for workshop
-            presentation.<br /><br />
-          </div>
-        </div>
-        <div class="cente-text-cente flex">
-          <div class="text">
-            <span>Key Topics (including but not limited to)</span><br />
-            <span>Techniques: </span>
-            <br />
-            • Multimodal financial data modeling with LLMs<br />
-            • Cross-lingual LLM architectures for global finance <br />
-            • Human-in-the-loop frameworks for financial decision-making<br /><br />
-            <span>Applications:</span><br />
-            • LLM-based algorithmic trading systems<br />
-            • Semantic analysis of regulatory filings<br />
-            • Explainable AI in risk assessment<br /><br />
-            <span>Challenges:</span><br />
-            • Ethical biases in financial LLM predictions<br />
-            • Cross-border data privacy compliance<br />
-            • Real-time model validation for financial stability<br /><br />
-          </div>
-          <div class="img-box">
-            <img
-              src="@/assets/img/IMG.png"
-              alt=""
-            />
-          </div>
-        </div>
+        Each submission can be up to 7 pages of contents plus up to 2 additional pages of references and
+        acknowledgements. The submitted papers must be written in English and in PDF format according to the
+        <a
+          href="https://www.ijcai.org/authors_kit"
+          target="_blank"
+          >IJCAI'26 template</a
+        >. All submitted papers will be under a single-blind peer review for their novelty, technical quality, and
+        impact. The submissions can contain author details.<br /><br />
+
+        Based on the requirement from IJCAI'26, at least one author of each accepted paper must travel to the IJCAI
+        venue in person. In addition, multiple submissions of the same paper to more than one IJCAI workshop are
+        forbidden.<br /><br />
+
+        <span>Easychair submission site:</span> [Link to be updated]<br />
+        <span>For enquiries, please email to:</span>
+        <a href="mailto:yanjiangpeng@efunds.com.cn">yanjiangpeng@efunds.com.cn</a>
       </div>
+
       <h1>Important Dates</h1>
       <div class="card-box mg-bottom">
         <div class="card">
-          <p class="title">Submission Deadline:</p>
+          <p class="title">Final Submission Deadline:</p>
           <p class="timer">
-            <span class="month">July 15, 2025</span>
+            <span class="month">May 1, 2026</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
-          <p class="title">Presentation Notification:</p>
+          <p class="title">Notification Due:</p>
           <p class="timer">
-            <span class="month">July 20, 2025</span>
-            <!-- <span class="date">(23:59:59 AoE)</span> -->
+            <span class="month">June 1, 2026</span>
+            <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
         <div class="card">
           <p class="title">Workshop Date:</p>
           <p class="timer">
-            <span class="month">August 29, 2025</span>
-            <!-- <span class="date">(23:59:59 AoE)</span> -->
+            <span class="month">August 15-17, 2026</span>
           </p>
         </div>
-        <!-- <div class="card">
-          <p class="title">Symposium Date:</p>
-          <p class="timer">
-            <span class="month">August 20, 2023</span>
-          </p>
-        </div> -->
       </div>
     </div>
+
     <div class="center-box w padding">
       <p><br /></p>
-      <h1>Organizers of Organizing Committee</h1>
+      <h1>Organizing Committee</h1>
+
       <div class="cente-text mg-bottom">
+        <h2 style="font-size: 28px; color: #0078ce; margin: 30px 0 20px 0">General Chairs</h2>
         <div class="centet-people">
-          <div class="left-title">General Chair</div>
           <div class="people-box">
             <div class="info-box">
               <div class="avt">
@@ -166,7 +171,7 @@
               </div>
               <div class="info">
                 <p class="name">Qiang Yang</p>
-                <p class="note">PolyU</p>
+                <p class="note">The Hong Kong Polytechnic University</p>
               </div>
             </div>
             <div class="info-box">
@@ -178,18 +183,28 @@
               </div>
               <div class="info">
                 <p class="name">Liyuan Chen</p>
-                <p class="note">E Fund</p>
+                <p class="note">E Fund Management Co., Ltd.</p>
               </div>
             </div>
           </div>
         </div>
+        <div style="margin-top: 20px; font-size: 18px; line-height: 1.8">
+          <p>
+            <strong>Prof. Qiang Yang:</strong> Director of Academy of Artificial Intelligence, Chief Artificial
+            Intelligence Officer, and half-time Chair Professor of AI in the Department of Data Science and Artificial
+            Intelligence at Hong Kong PolyU. AAAI Fellow, IEEE Fellow, AAAS Fellow, IAPR Fellow and ACM Distinguished
+            Member. President of IJCAI (2017-2019). PC Chair and Co-Chair: IJCAI(2015), ACM KDD(2010).
+          </p>
+          <p style="margin-top: 15px">
+            <strong>Ms. Liyuan Chen:</strong> Vice President of E Fund Management, Chairperson of E Fund FinTech
+            Executive Committee.
+          </p>
+        </div>
+      </div>
+
+      <div class="cente-text mg-bottom">
+        <h2 style="font-size: 28px; color: #0078ce; margin: 30px 0 20px 0">Executive Chair</h2>
         <div class="centet-people">
-          <div
-            class="left-title"
-            style="text-align: left"
-          >
-            Chairman of the Program Committee
-          </div>
           <div class="people-box">
             <div class="info-box">
               <div class="avt">
@@ -200,179 +215,112 @@
               </div>
               <div class="info">
                 <p class="name">Shuoling Liu</p>
-                <p class="note">E Fund</p>
+                <p class="note">E Fund Management Co., Ltd.</p>
               </div>
             </div>
           </div>
         </div>
+        <div style="margin-top: 20px; font-size: 18px; line-height: 1.8">
+          <p>
+            <strong>Dr. Shuoling Liu:</strong> Chief Information Officer of E Fund Management, Member of E Fund FinTech
+            Executive Committee, Head of Innovation Lab, Member of the FinTech Special Committee of AMAC.
+          </p>
+        </div>
+      </div>
+
+      <div class="cente-text mg-bottom">
+        <h2 style="font-size: 28px; color: #0078ce; margin: 30px 0 20px 0">Program Committee (TBD)</h2>
         <div class="centet-people">
-          <div class="left-title">Student Program Chairs</div>
           <div class="people-box">
             <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/mayue.png"
-                  alt=""
-                />
-              </div>
+              <div
+                class="avt"
+                style="background-color: #e0e0e0"
+              ></div>
               <div class="info">
-                <p class="name">Yue Ma</p>
-                <p class="note">HKUST</p>
+                <p class="name">Xiaojun Zeng</p>
+                <p class="note">The University of Manchester</p>
               </div>
             </div>
             <div class="info-box">
-              <div class="avt">
-                <img
-                  src="@/assets/img/zhangjunjie.png"
-                  alt=""
-                />
-              </div>
+              <div
+                class="avt"
+                style="background-color: #e0e0e0"
+              ></div>
               <div class="info">
-                <p class="name">Junjie Zhang</p>
-                <p class="note">NTU</p>
+                <p class="name">Zhongtian Sun</p>
+                <p class="note">University of Kent</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div
+                class="avt"
+                style="background-color: #e0e0e0"
+              ></div>
+              <div class="info">
+                <p class="name">Xiu Li</p>
+                <p class="note">Tsinghua University</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div
+                class="avt"
+                style="background-color: #e0e0e0"
+              ></div>
+              <div class="info">
+                <p class="name">Qianqian Xie</p>
+                <p class="note">Wuhan University</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top: 20px; font-size: 18px; color: #666">More members to be announced...</p>
+      </div>
+
+      <div class="cente-text mg-bottom">
+        <h2 style="font-size: 28px; color: #0078ce; margin: 30px 0 20px 0">Workshop Secretary</h2>
+        <div class="centet-people">
+          <div class="people-box">
+            <div class="info-box">
+              <div
+                class="avt"
+                style="background-color: #e0e0e0"
+              ></div>
+              <div class="info">
+                <p class="name">Jiangpeng Yan</p>
+                <p class="note">E Fund Management Co., Ltd.</p>
+              </div>
+            </div>
+            <div class="info-box">
+              <div
+                class="avt"
+                style="background-color: #e0e0e0"
+              ></div>
+              <div class="info">
+                <p class="name">Yuchen Shi</p>
+                <p class="note">E Fund Management Co., Ltd.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <h1>Organized by</h1>
       <div class="cente-text mg-bottom">
-        <div class="cente-text-cente justify">
-          <span>Prof. Qiang Yang: </span>
-          Director of Academy of Artificial Intelligence, Chief Artificial Intelligence Officer, and half-time Chair
-          Professor of AI in the Department of Data Science and Artificial Intelligence at Hongkong PolyU. AAAI Fellow,
-          IEEE Fellow, AAAS Fellow, IAPR Fellow and ACM Distinguished Members. President of IJCAI (2017-2019). Vice
-          Chair of ACM SIGART (SIGAI) (2009-2012), PC Chair and Co-Chair: IJCAI(2015), ACM KDD(2010).<br />
-          Google Scholar: <br /><a href="https://scholar.google.com/citations?user=1LxWZLQAAAAJ"
-            >https://scholar.google.com/citations?user=1LxWZLQAAAAJ</a
-          ><br /><br />
-          <span>Ms. Liyuan Chen: </span>
-          Vice President of E Fund Management, Chairperson of E Fund FinTech Executive Committee.<br /><br />
-          <span>Dr. Shuoling Liu: </span>
-          Cheif Information Officer of E Fund Management, Member of E Fund FinTech Executive Committee, Head of
-          Innovation Lab, Member of the FinTech Special Committee of AMAC.<br /><br />
-          <span>Prof. Xiu Li: </span>
-          Tsinghua Shenzhen International Graduate School, China. <br /><br />
-          <span>Prof. Xiaojun Zeng: </span>
-          University of Manchester, UK. <br /><br />
-          <span>Prof. Bo An: </span>
-          Nanyang Technological University, Singapore.<br /><br />
-          <span>Prof. Jian Guo: </span>
-          International Digital Economy Academy (IDEA), China.<br /><br />
-          <span>Dr. Jianzong Wang: </span>
-          Deputy Chief Engineer of Ping An Technology Co., Ltd., China.
-        </div>
+        • E Fund Management Co., Ltd., China<br />
+        • Tsinghua University, China<br />
+        • The Hong Kong Polytechnic University, Hong Kong, China<br />
+        • The University of Manchester, UK<br />
+        • University of Kent, UK<br />
+        • Wuhan University, China
       </div>
+
       <h1>Meeting Agenda</h1>
       <div class="cente-text mg-bottom">
-        <div class="table">
-          <table>
-            <thead>
-              <tr>
-                <th>Time</th>
-                <th>Item or report title</th>
-                <th>Host or reporter</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>08:30-08:35</td>
-                <td>Opening Speech</td>
-                <td>Shuoling Liu, E Fund</td>
-              </tr>
-              <tr>
-                <td>08:35-09:05</td>
-                <td>Continual Federated Learning</td>
-                <td>Professor Qiang Yang, PolyU</td>
-              </tr>
-              <tr>
-                <td>09:05-09:35</td>
-                <td>Exploration of the Application and Optimization of Financial Large Models</td>
-                <td>Chuan Lu, NVIDIA</td>
-              </tr>
-              <tr>
-                <td>09:35-10:05</td>
-                <td>Qwen Dianjin: Advances and Insights</td>
-                <td>Jie Zhu</td>
-              </tr>
-              <tr>
-                <td>10:05-10:15</td>
-                <td>Coffee Break</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>10:15-10:45</td>
-                <td>Large Invest Model</td>
-                <td>Professor Jian Guo & Dr. Zhouchi Lin, IDEA</td>
-              </tr>
-              <tr>
-                <td>10:45-10:55</td>
-                <td>The Exploration of LLMs in Finance: A Case Study on Compliance and Security</td>
-                <td>Junyang Li, E Fund</td>
-              </tr>
-              <tr>
-                <td>10:55-11:05</td>
-                <td>DeepFund: Will LLMs be Professional at Fund Investment? A Live Arena Perspective</td>
-                <td>Changlun Li, HKUST</td>
-              </tr>
-              <tr>
-                <td>11:05-11:15</td>
-                <td>
-                  Advanced Financial Reasoning at Scale: A Comprehensive Evaluation of Large Language Models on CFA
-                  Level III
-                </td>
-                <td>Rochester Institute of Technology (Video)</td>
-              </tr>
-              <tr>
-                <td>11:15-11:25</td>
-                <td>FinSphere, a Real-Time Stock Analysis Agent Powered by Instruction-Tuned LLMs and Domain Tools</td>
-                <td>Shijie Han, Columbia University</td>
-              </tr>
-              <tr>
-                <td>11:25-11:30</td>
-                <td>MulFSA: Multi-level Financial Sentiment Analysis Framework for Bond Market</td>
-                <td>Yiwei Liu</td>
-              </tr>
-              <tr>
-                <td>11:30-11:35</td>
-                <td>TULIP: Adapting Open-Source Large Language Models for Underrepresented</td>
-                <td>İrem Demirtaş, Burak Payzun Prometeia SPA</td>
-              </tr>
-              <tr>
-                <td>11:35-11:40</td>
-                <td>FinMarBa: A Market-Informed Dataset for Financial Sentiment Classification</td>
-                <td>Ai For Alpha, France (Video)</td>
-              </tr>
-              <tr>
-                <td>11:40-11:45</td>
-                <td>
-                  Integration of Large Language Models and Environmental, Social, and Governance in Financial
-                  Investment: State of the Art and Key Takeaways
-                </td>
-                <td>Qianyu Lu, University of Cambridge</td>
-              </tr>
-              <tr>
-                <td>11:45-11:50</td>
-                <td>
-                  HARLF: Hierarchical Reinforcement Learning and Lightweight LLM-Driven Sentiment Integration for
-                  Financial Portfolio Optimization
-                </td>
-                <td>Benjamin Coriat, CentraleSupelec, France</td>
-              </tr>
-              <tr>
-                <td>11:50-11:55</td>
-                <td>Awarding ceromony</td>
-                <td></td>
-              </tr>
-              <tr>
-                <td>11:55-12:00</td>
-                <td>Ending talk</td>
-                <td>Shuoling Liu, E Fund</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <p style="font-size: 20px; color: #81838c">To be announced.</p>
       </div>
     </div>
+
     <div class="footer padding">
       <div>
         <div class="email-icon"></div>
@@ -460,11 +408,9 @@ export default {}
   height: 614px;
   box-sizing: border-box;
   background-size: 100% 100%;
-  // display: flex;
-  // justify-content: space-between;
   padding-top: 90px;
   @media (max-width: 750px) {
-    height: 1200px;
+    height: 1400px;
   }
   .sub-text {
     position: relative;
@@ -669,7 +615,6 @@ export default {}
             margin-right: 20px;
             background: rgba(95, 95, 95, 0.16);
             border-radius: 50%;
-            // border: 1px solid #e2e2e2;
             overflow: hidden;
             @media (max-width: 750px) {
               width: 180px;
@@ -876,9 +821,7 @@ export default {}
         display: flex;
         flex: 1;
         justify-content: space-between;
-        // margin-left: 120px;
         @media (max-width: 750px) {
-          // margin-left: 40px;
           flex-wrap: wrap;
           margin-top: 40px;
         }
@@ -896,7 +839,6 @@ export default {}
             margin-right: 20px;
             background: rgba(95, 95, 95, 0.16);
             border-radius: 50%;
-            // border: 1px solid #e2e2e2;
             overflow: hidden;
             @media (max-width: 750px) {
               width: 180px;
@@ -1101,23 +1043,19 @@ export default {}
     }
   }
 }
-/* 针对 Firefox 浏览器 */
 @supports (-moz-appearance: none) {
   @media (max-width: 750px) {
     .public-mixin();
   }
 }
-/* 针对 iOS 设备，Retina 屏幕 */
 @media screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 750px) {
   .public-mixin();
 }
 
-/* 针对 iOS 设备，非 Retina 屏幕 */
 @media screen and (-webkit-max-device-pixel-ratio: 1) and (max-width: 750px) {
   .public-mixin();
 }
 
-/* 针对特定的 iOS 设备（例如：iPhone 6/7/8 Plus） */
 @media screen and (device-aspect-ratio: 16/9) and (-webkit-min-device-pixel-ratio: 3) and (max-width: 750px) {
   .public-mixin();
 }

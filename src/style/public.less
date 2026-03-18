@@ -1,7 +1,7 @@
 @size: 50px;
-.public-mixin(){
+.public-mixin() {
   .center-box {
-    h1{
+    h1 {
       font-size: @size + 10px;
     }
     .cente-text {
@@ -42,19 +42,19 @@
   .center-box .h1-title {
     font-size: @size;
   }
-  .middle{
-    &>div{
-      &>div{
-        &>div{
+  .middle {
+    & > div {
+      & > div {
+        & > div {
           font-size: @size;
           line-height: 2;
-          span{
+          span {
             font-size: @size;
           }
         }
       }
     }
-    h1{
+    h1 {
       font-size: @size + 10px;
     }
   }
