@@ -139,7 +139,7 @@
         <div class="card">
           <p class="title">Final Submission Deadline:</p>
           <p class="timer">
-            <span class="month">May 1, 2026</span>
+            <span class="month">May 15, 2026</span>
             <span class="date">(23:59:59 AoE)</span>
           </p>
         </div>
@@ -156,6 +156,39 @@
             <span class="month">August 15-17, 2026</span>
           </p>
         </div>
+      </div>
+    </div>
+
+    <div class="center-box w padding">
+      <h1>Workshop Policy & Awards</h1>
+      <div class="cente-text mg-bottom">
+        <span
+          class="p-text"
+          style="font-weight: 700"
+          >Exchange-Focused:</span
+        ><br />
+        We prioritize discussion and will provide award certificates for accepted papers. Top-3 papers will also get registration fee support.<br /><br />
+
+        <span
+          class="p-text"
+          style="font-weight: 700"
+          >Submission Policy:</span
+        ><br />
+        We allow submissions of papers already published elsewhere (please specify upon submission); these will not undergo secondary review.<br /><br />
+
+        <span
+          class="p-text"
+          style="font-weight: 700"
+          >Publication:</span
+        ><br />
+        There will be no formal workshop proceedings. Instead, accepted papers will receive detailed review feedback and in-depth discussion at the workshop to help authors revise and improve their work, with the aim of enhancing paper quality for future submission to other venues.<br /><br />
+
+        <span
+          class="p-text"
+          style="font-weight: 700"
+          >Outstanding Paper Recognition:</span
+        ><br />
+        To encourage and recognize exceptional contributions, FinLLM 2026 will select a number of distinguished papers for special recognition. Award recipients will be honored during the workshop and may receive additional support to facilitate their participation. Details of the evaluation criteria and recognition process will be communicated to authors of accepted papers. We warmly invite high-quality submissions that push the boundaries of LLM research in finance.
       </div>
     </div>
 
