@@ -10,10 +10,24 @@
       <div class="w padding flex">
         <span>FinLLM 2026</span>
         <div class="right">
-          <img
-            src="@/assets/img/ijcai.png"
-            alt=""
-          />
+          <a
+            href="https://ijcai.org/"
+            target="_blank"
+          >
+            <img
+              src="@/assets/img/ijcai.png"
+              alt="IJCAI"
+            />
+          </a>
+          <a
+            href="https://2026.ijcai.org/"
+            target="_blank"
+          >
+            <img
+              src="@/assets/img/logo-2026.jpg"
+              alt="IJCAI 2026"
+            />
+          </a>
         </div>
       </div>
     </div>
@@ -22,9 +36,15 @@
         International Symposium on <br />Large Language Models for Financial Services<br />
         (FinLLM@IJCAI2026)<br />
         <div class="sub-title">
-          In Conjunction with IJCAI2026<br />
-          <span>Bremen, Germany, August 15-17, 2026</span>
+          Bremen, Germany, August 15, 2026<br />
+          <span>In Conjunction with IJCAI2026, August 15-21, 2026</span>
         </div>
+      </div>
+      <div class="conf-link-small">
+        Visit the main conference website at: <a
+          href="https://2026.ijcai.org/"
+          target="_blank"
+        >https://2026.ijcai.org/</a>
       </div>
       <button
         class="registration"
@@ -197,7 +217,7 @@
       <h1>Organizing Committee</h1>
 
       <div class="cente-text mg-bottom">
-        <h2 style="font-size: 28px; color: #0078ce; margin: 30px 0 20px 0">General Chairs</h2>
+        <h2 style="font-size: 28px; color: #4774f4; margin: 30px 0 20px 0">General Chairs</h2>
         <div class="centet-people">
           <div class="people-box">
             <div class="info-box">
@@ -244,7 +264,7 @@
       </div>
 
       <div class="cente-text mg-bottom">
-        <h2 style="font-size: 28px; color: #0078ce; margin: 30px 0 20px 0">Executive Chair</h2>
+        <h2 style="font-size: 28px; color: #4774f4; margin: 30px 0 20px 0">Executive Chair</h2>
         <div class="centet-people">
           <div class="people-box">
             <div class="info-box">
@@ -273,7 +293,7 @@
       </div>
 
       <div class="cente-text mg-bottom">
-        <h2 style="font-size: 28px; color: #0078ce; margin: 30px 0 20px 0">Program Committee (TBD)</h2>
+        <h2 style="font-size: 28px; color: #4774f4; margin: 30px 0 20px 0">Program Committee (TBD)</h2>
         <div class="centet-people">
           <div class="people-box">
             <div class="info-box">
@@ -330,7 +350,7 @@
       </div>
 
       <div class="cente-text mg-bottom">
-        <h2 style="font-size: 28px; color: #0078ce; margin: 30px 0 20px 0">Workshop Secretary</h2>
+        <h2 style="font-size: 28px; color: #4774f4; margin: 30px 0 20px 0">Workshop Secretary</h2>
         <div class="centet-people">
           <div class="people-box">
             <div class="info-box">
@@ -420,19 +440,29 @@ export default {}
   color: #ffffff;
   letter-spacing: 0;
   font-weight: 700;
-  background: url('@/assets/img/CTA.png') no-repeat;
-  background-size: cover;
+  background: #4774f4;
   .right {
-    width: 172px;
-    height: 64px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
     @media (max-width: 750px) {
-      width: 300px;
-      height: 120px;
+      gap: 20px;
     }
-    img {
-      width: 100%;
-      height: 100%;
-      vertical-align: top;
+    a {
+      display: inline-block;
+      width: 230px;
+      height: 86px;
+      flex-shrink: 0;
+      @media (max-width: 750px) {
+        width: 180px;
+        height: 67px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        vertical-align: top;
+        object-fit: contain;
+      }
     }
   }
 }
@@ -501,7 +531,7 @@ export default {}
       width: 10px;
       content: '';
       display: inline-block;
-      background-color: #4774f4;
+      background-color: #ffffff;
       left: 0;
       top: 15px;
       bottom: 15px;
@@ -526,26 +556,45 @@ export default {}
     }
   }
   .registration {
-    height: 50px;
-    background-color: #4270f1;
+    height: 54px;
+    background-color: #4774f4;
     border: none;
     color: #ffffff;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     margin-right: 30px;
     border-radius: 5px;
+    padding: 0 18px;
     @media (max-width: 750px) {
       width: 300px;
       height: 100px;
-      font-size: 28px;
+      font-size: 36px;
+    }
+  }
+  .conf-link-small {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    a {
+      color: rgba(255, 255, 255, 0.8);
+      text-decoration: underline;
+      &:hover {
+        color: #ffffff;
+      }
+    }
+    @media (max-width: 750px) {
+      font-size: 36px;
     }
   }
 }
 .center-box {
   h1 {
     font-size: 48px;
-    color: #0d152e;
+    color: #0F172A;
     line-height: 60px;
     font-weight: 700;
     &::before {
@@ -564,7 +613,7 @@ export default {}
     margin-top: 72px;
     margin-bottom: 32px;
     width: 100%;
-    background-color: #299bff;
+    background-color: #4774f4;
     @media (max-width: 750px) {
       flex-direction: column;
       border-radius: 20px;
@@ -619,7 +668,7 @@ export default {}
     .center-img {
       flex-grow: 1;
       border-radius: 0 15px 15px 0;
-      border-left: 1px solid #20b9e1;
+      border-left: 1px solid #4774f4;
       height: 320px;
       @media (max-width: 750px) {
         width: 100%;
@@ -630,10 +679,18 @@ export default {}
   }
   .cente-text {
     font-size: 20px;
-    color: #81838c;
+    color: #4F5B62;
     text-align: justify;
     line-height: 34px;
     font-weight: 500;
+    a {
+      color: #4774f4;
+      text-decoration: none;
+      &:hover {
+        color: #2f50c1;
+        text-decoration: underline;
+      }
+    }
     .centet-people {
       display: flex;
       align-items: center;
@@ -643,7 +700,7 @@ export default {}
       }
       .left-title {
         font-size: 24px;
-        color: #0078ce;
+        color: #4774f4;
         font-weight: 700;
         width: 280px;
         @media (max-width: 750px) {
@@ -697,7 +754,7 @@ export default {}
             }
             .name {
               font-size: 19.8px;
-              color: #292f36;
+              color: #0F172A;
               font-weight: 700;
               @media (max-width: 750px) {
                 font-size: 42px;
@@ -705,7 +762,7 @@ export default {}
             }
             .note {
               font-size: 16.2px;
-              color: #292f36;
+              color: #0F172A;
               font-weight: 500;
               text-align: left;
               @media (max-width: 750px) {
@@ -798,7 +855,7 @@ export default {}
         }
 
         td {
-          color: #81838c;
+          color: #4F5B62;
           font-weight: 500;
           font-size: 24px;
           word-break: break-all;
@@ -823,12 +880,12 @@ export default {}
       }
       .title {
         font-size: 20px;
-        color: #81838c;
+        color: #4F5B62;
         line-height: 33px;
         font-weight: 700;
       }
       .timer {
-        color: #81838c;
+        color: #4F5B62;
         .month {
           font-size: 20px;
           font-weight: 500;
@@ -844,7 +901,7 @@ export default {}
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    color: #81838c;
+    color: #4F5B62;
     text-align: justify;
     line-height: 34px;
     font-weight: 500;
@@ -922,7 +979,7 @@ export default {}
             }
             .name {
               font-size: 19.8px;
-              color: #292f36;
+              color: #0F172A;
               font-weight: 700;
               @media (max-width: 750px) {
                 font-size: 42px;
@@ -930,7 +987,7 @@ export default {}
             }
             .note {
               font-size: 16.2px;
-              color: #292f36;
+              color: #0F172A;
               font-weight: 500;
               text-align: left;
               @media (max-width: 750px) {
@@ -944,7 +1001,7 @@ export default {}
         font-size: 26px;
         font-weight: 700;
         margin: 0;
-        color: #0078ce;
+        color: #4774f4;
       }
     }
     .bg-none {
@@ -954,7 +1011,7 @@ export default {}
   .h1-title {
     margin-top: 50px;
     font-size: 26px;
-    color: #81838c;
+    color: #4F5B62;
     line-height: 34px;
     font-weight: 700;
   }
