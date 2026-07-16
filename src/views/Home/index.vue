@@ -41,10 +41,12 @@
         </div>
       </div>
       <div class="conf-link-small">
-        Visit the main conference website at: <a
+        Visit the main conference website at:
+        <a
           href="https://2026.ijcai.org/"
           target="_blank"
-        >https://2026.ijcai.org/</a>
+          >https://2026.ijcai.org/</a
+        >
       </div>
       <button
         class="registration"
@@ -173,7 +175,7 @@
         <div class="card">
           <p class="title">Workshop Date:</p>
           <p class="timer">
-            <span class="month">August 15-17, 2026</span>
+            <span class="month">August 15, 2026</span>
           </p>
         </div>
       </div>
@@ -187,28 +189,36 @@
           style="font-weight: 700"
           >Exchange-Focused:</span
         ><br />
-        We prioritize discussion and will provide award certificates for accepted papers. Top-3 papers will also get registration fee support.<br /><br />
+        We prioritize discussion and will provide award certificates for accepted papers. Top-3 papers will also get
+        registration fee support.<br /><br />
 
         <span
           class="p-text"
           style="font-weight: 700"
           >Submission Policy:</span
         ><br />
-        We allow submissions of papers already published elsewhere (please specify upon submission); these will not undergo secondary review.<br /><br />
+        We allow submissions of papers already published elsewhere (please specify upon submission); these will not
+        undergo secondary review.<br /><br />
 
         <span
           class="p-text"
           style="font-weight: 700"
           >Publication:</span
         ><br />
-        There will be no formal workshop proceedings. Instead, accepted papers will receive detailed review feedback and in-depth discussion at the workshop to help authors revise and improve their work, with the aim of enhancing paper quality for future submission to other venues.<br /><br />
+        There will be no formal workshop proceedings. Instead, accepted papers will receive detailed review feedback and
+        in-depth discussion at the workshop to help authors revise and improve their work, with the aim of enhancing
+        paper quality for future submission to other venues.<br /><br />
 
         <span
           class="p-text"
           style="font-weight: 700"
           >Outstanding Paper Recognition:</span
         ><br />
-        To encourage and recognize exceptional contributions, FinLLM 2026 will select a number of distinguished papers for special recognition. Award recipients will be honored during the workshop and may receive additional support to facilitate their participation. Details of the evaluation criteria and recognition process will be communicated to authors of accepted papers. We warmly invite high-quality submissions that push the boundaries of LLM research in finance.
+        To encourage and recognize exceptional contributions, FinLLM 2026 will select a number of distinguished papers
+        for special recognition. Award recipients will be honored during the workshop and may receive additional support
+        to facilitate their participation. Details of the evaluation criteria and recognition process will be
+        communicated to authors of accepted papers. We warmly invite high-quality submissions that push the boundaries
+        of LLM research in finance.
       </div>
     </div>
 
@@ -293,7 +303,7 @@
       </div>
 
       <div class="cente-text mg-bottom">
-        <h2 style="font-size: 28px; color: #4774f4; margin: 30px 0 20px 0">Program Committee (TBD)</h2>
+        <h2 style="font-size: 28px; color: #4774f4; margin: 30px 0 20px 0">Program Committee</h2>
         <div class="centet-people">
           <div class="people-box">
             <div class="info-box">
@@ -346,7 +356,6 @@
             </div>
           </div>
         </div>
-        <p style="margin-top: 20px; font-size: 18px; color: #666">More members to be announced...</p>
       </div>
 
       <div class="cente-text mg-bottom">
@@ -392,8 +401,34 @@
       </div>
 
       <h1>Meeting Agenda</h1>
-      <div class="cente-text mg-bottom">
-        <p class="text">To be announced.</p>
+      <div class="agenda-intro">August 15, 2026 · Bremen, Germany</div>
+      <div class="agenda-table-wrap mg-bottom">
+        <table class="agenda-table">
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Session</th>
+              <th>Speaker</th>
+              <th>Institution</th>
+              <th>Title</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              v-for="item in agenda"
+              :key="item.time"
+              :class="{ 'break-row': item.isBreak, 'featured-row': item.isFeatured }"
+            >
+              <td class="agenda-time">{{ item.time }}</td>
+              <td>
+                <span class="session-label">{{ item.session }}</span>
+              </td>
+              <td>{{ item.speaker }}</td>
+              <td class="agenda-institution">{{ item.institution }}</td>
+              <td class="agenda-title">{{ item.title }}</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 
@@ -410,7 +445,175 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      agenda: [
+        {
+          time: '09:00–09:10',
+          session: 'Opening Remarks',
+          speaker: 'Shuoling Liu',
+          institution: 'E Fund, China',
+          title: 'Welcome and workshop introduction',
+          isFeatured: true,
+        },
+        {
+          time: '09:10–09:40',
+          session: 'Invited Talk I',
+          speaker: 'Prof. Qiang Yang',
+          institution: 'Hong Kong Polytechnic University, Hong Kong',
+          title: 'Federated Learning and LLM',
+          isFeatured: true,
+        },
+        {
+          time: '09:40–10:05',
+          session: 'Best Paper Award Presentation',
+          speaker: 'Xinyu Wang',
+          institution: 'SimpleWay.AI, Canada\nMcGill University, Canada',
+          title: 'FinSAgent: A Financial Specialized Multi-Agent System for SEC Filing Analysis',
+          isFeatured: true,
+        },
+        { time: '10:05–10:15', session: 'Coffee Break (informal discussion)', isBreak: true },
+        {
+          time: '10:15–10:30',
+          session: 'Long Oral',
+          speaker: 'Jan Spörer',
+          institution: 'University of St. Gallen, Switzerland',
+          title: 'Can Open-Weight Models Compete on Financial Text Comprehension?',
+        },
+        {
+          time: '10:30–10:45',
+          session: 'Long Oral',
+          speaker: 'Isabel Xu',
+          institution: 'The Overlake School, United States',
+          title:
+            'TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient and Privacy-Preserving Financial Sentiment Analysis',
+        },
+        {
+          time: '10:45–11:00',
+          session: 'Long Oral (pre-recorded)',
+          speaker: 'Anastasiia Fedorova',
+          institution: 'Higher School of Economics, Russia',
+          title: 'Document-Grounded DCF Valuation with LLM Assumption Governance',
+        },
+        {
+          time: '11:00–11:15',
+          session: 'Long Oral',
+          speaker: 'Gaël Guibon',
+          institution: 'Université de Lorraine, France',
+          title:
+            'Benchmarking Generalization in Financial Statement Fraud Detection: Robust Evaluation and Novel Tasks',
+        },
+        {
+          time: '11:15–11:30',
+          session: 'Long Oral',
+          speaker: 'Mingxuan Yi',
+          institution: 'University of Bristol, United Kingdom',
+          title: 'Enhancing Regime Shift Detection Using Unstructured Data: A Study on the Treasury Market',
+        },
+        { time: '11:30–14:00', session: 'Lunch Break (informal / poster exchange)', isBreak: true },
+        {
+          time: '14:00–14:30',
+          session: 'Invited Talk II',
+          speaker: 'Asst. Prof. Zhongtian Sun',
+          institution: 'University of Kent, United Kingdom',
+          title: 'Towards Trustworthy AI in Finance: Structure, Agents, and Accountability',
+          isFeatured: true,
+        },
+        {
+          time: '14:30–14:55',
+          session: 'Best Paper Runner-Up Presentation',
+          speaker: 'Zijie Zhao',
+          institution: 'Massachusetts Institute of Technology, United States',
+          title:
+            'Learning Whom to Trust: Market-Feedback Adaptive RAG for Frozen LLMs and Event-Driven Market-Impact Signals',
+          isFeatured: true,
+        },
+        {
+          time: '14:55–15:03',
+          session: 'Short Oral',
+          speaker: 'Ruoxi Zhao',
+          institution: 'University of California, United States',
+          title: 'Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs',
+        },
+        {
+          time: '15:03–15:11',
+          session: 'Short Oral (pre-recorded)',
+          speaker: 'Chun Chet Ng',
+          institution: 'AI Lens, Malaysia',
+          title: 'PRISM: Prompt-Refined In-Context System Modeling for Financial Retrieval',
+        },
+        {
+          time: '15:11–15:19',
+          session: 'Short Oral (pre-recorded)',
+          speaker: 'Manuela Zaidan',
+          institution: 'Intesa Sanpaolo SPA, Italy',
+          title: 'Substantive Equality in the Age of Generative and Agentic AI: Rethinking Creditworthiness',
+        },
+        {
+          time: '15:19–15:27',
+          session: 'Short Oral',
+          speaker: 'Joohyun Lee',
+          institution: 'Financial Security Institute, South Korea\nHanyang University, South Korea',
+          title: 'Hierarchical Reranking for Scalable Financial RAG System',
+        },
+        {
+          time: '15:27–15:35',
+          session: 'Short Oral',
+          speaker: 'Sitong Ge',
+          institution: 'Beihang University, China',
+          title: 'Beyond Sentiment: Structured Information Extraction from Financial News',
+        },
+        { time: '15:35–15:45', session: 'Coffee Break (informal discussion)', isBreak: true },
+        {
+          time: '15:45–15:53',
+          session: 'Short Oral',
+          speaker: 'Yikuan Huang',
+          institution: 'Hong Kong University of Science and Technology, Hong Kong',
+          title:
+            'From Prompting to Autonomous Discovery: A Closed-Loop Agentic LLM Framework for Financial Signal Generation',
+        },
+        {
+          time: '15:53–16:01',
+          session: 'Short Oral',
+          speaker: 'Anubhav Lakra',
+          institution: 'Institute of Technology Madras, Denmark',
+          title: 'CACHE-UK: A Stability-Aware Memory Editor for Sequentially Updated Quantized LLMs in Finance',
+        },
+        {
+          time: '16:01–16:09',
+          session: 'Short Oral',
+          speaker: 'Irem Demirtas',
+          institution: 'Prometeia SPA, Turkey',
+          title: 'Benchmarks Are Not Validation: A System-Level View of Financial LLM Applications',
+        },
+        {
+          time: '16:09–16:17',
+          session: 'Short Oral',
+          speaker: 'Sergei Muravev',
+          institution: 'ITMO University, Russia',
+          title:
+            'Evaluating Frontier LLMs Against an Interpretable Reference for Cross-Border Economic-Crisis Detection',
+        },
+        {
+          time: '16:17–16:25',
+          session: 'Short Oral',
+          speaker: 'Mengting Chen',
+          institution: 'Stepfun, China',
+          title: 'ContestTrade: A Multi-Agent Trading System Based on Internal Contest Mechanism',
+        },
+        {
+          time: '16:25–16:50',
+          session: 'Award Ceremony & Closing Remarks',
+          speaker: 'Shuoling Liu',
+          institution: 'E Fund, China',
+          title: 'Award recognition, acknowledgements, and closing remarks',
+          isFeatured: true,
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style lang="less" scoped>
@@ -425,6 +628,103 @@ export default {}
 }
 .mg-bottom {
   margin-bottom: 50px;
+}
+.agenda-intro {
+  display: inline-flex;
+  align-items: center;
+  margin: 4px 0 24px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  color: #4774f4;
+  background: #edf2ff;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 700;
+}
+.agenda-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #dfe6f5;
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow: 0 12px 34px rgba(36, 65, 130, 0.08);
+}
+.agenda-table {
+  width: 100%;
+  min-width: 1360px;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+  text-align: left;
+  th,
+  td {
+    padding: 19px 17px;
+    border-bottom: 1px solid #e8edf7;
+    vertical-align: top;
+    color: #4f5b62;
+    font-size: 18px;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+  }
+  th {
+    color: #ffffff;
+    background: #4774f4;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+  }
+  th:first-child {
+    width: 130px;
+  }
+  th:nth-child(2) {
+    width: 230px;
+  }
+  th:nth-child(3) {
+    width: 190px;
+  }
+  th:nth-child(4) {
+    width: 300px;
+  }
+  th:last-child {
+    width: auto;
+  }
+  tbody tr:last-child td {
+    border-bottom: 0;
+  }
+  tbody tr:not(.break-row):hover td {
+    background: #f7f9ff;
+  }
+  .agenda-time {
+    color: #0f172a;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  .session-label {
+    color: #315fd8;
+    font-weight: 700;
+  }
+  .agenda-institution {
+    white-space: pre-line;
+  }
+  .agenda-title {
+    color: #0f172a;
+    font-weight: 600;
+  }
+  .featured-row td {
+    background: #f8faff;
+  }
+  .featured-row .session-label {
+    color: #173f9e;
+  }
+  .break-row td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #667085;
+    background: #f3f6fb;
+  }
+  .break-row .session-label {
+    color: #667085;
+    font-style: italic;
+  }
 }
 .flex {
   display: flex;
@@ -594,7 +894,7 @@ export default {}
 .center-box {
   h1 {
     font-size: 48px;
-    color: #0F172A;
+    color: #0f172a;
     line-height: 60px;
     font-weight: 700;
     &::before {
@@ -679,7 +979,7 @@ export default {}
   }
   .cente-text {
     font-size: 20px;
-    color: #4F5B62;
+    color: #4f5b62;
     text-align: justify;
     line-height: 34px;
     font-weight: 500;
@@ -754,7 +1054,7 @@ export default {}
             }
             .name {
               font-size: 19.8px;
-              color: #0F172A;
+              color: #0f172a;
               font-weight: 700;
               @media (max-width: 750px) {
                 font-size: 42px;
@@ -762,7 +1062,7 @@ export default {}
             }
             .note {
               font-size: 16.2px;
-              color: #0F172A;
+              color: #0f172a;
               font-weight: 500;
               text-align: left;
               @media (max-width: 750px) {
@@ -855,7 +1155,7 @@ export default {}
         }
 
         td {
-          color: #4F5B62;
+          color: #4f5b62;
           font-weight: 500;
           font-size: 24px;
           word-break: break-all;
@@ -880,12 +1180,12 @@ export default {}
       }
       .title {
         font-size: 20px;
-        color: #4F5B62;
+        color: #4f5b62;
         line-height: 33px;
         font-weight: 700;
       }
       .timer {
-        color: #4F5B62;
+        color: #4f5b62;
         .month {
           font-size: 20px;
           font-weight: 500;
@@ -901,7 +1201,7 @@ export default {}
     display: flex;
     justify-content: space-between;
     font-size: 20px;
-    color: #4F5B62;
+    color: #4f5b62;
     text-align: justify;
     line-height: 34px;
     font-weight: 500;
@@ -979,7 +1279,7 @@ export default {}
             }
             .name {
               font-size: 19.8px;
-              color: #0F172A;
+              color: #0f172a;
               font-weight: 700;
               @media (max-width: 750px) {
                 font-size: 42px;
@@ -987,7 +1287,7 @@ export default {}
             }
             .note {
               font-size: 16.2px;
-              color: #0F172A;
+              color: #0f172a;
               font-weight: 500;
               text-align: left;
               @media (max-width: 750px) {
@@ -1011,7 +1311,7 @@ export default {}
   .h1-title {
     margin-top: 50px;
     font-size: 26px;
-    color: #4F5B62;
+    color: #4f5b62;
     line-height: 34px;
     font-weight: 700;
   }
@@ -1072,6 +1372,38 @@ export default {}
   .w {
     min-width: 100vw;
     max-width: 100vw;
+  }
+  .agenda-intro {
+    margin-bottom: 30px;
+    padding: 14px 24px;
+    font-size: 34px;
+  }
+  .agenda-table-wrap {
+    border-radius: 20px;
+  }
+  .agenda-table {
+    min-width: 2300px;
+    th,
+    td {
+      padding: 24px 20px;
+      font-size: 30px;
+      line-height: 1.5;
+    }
+    th {
+      font-size: 32px;
+    }
+    th:first-child {
+      width: 230px;
+    }
+    th:nth-child(2) {
+      width: 390px;
+    }
+    th:nth-child(3) {
+      width: 330px;
+    }
+    th:nth-child(4) {
+      width: 510px;
+    }
   }
   .center-box {
     .cente-text {

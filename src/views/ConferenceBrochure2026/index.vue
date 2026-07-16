@@ -14,7 +14,34 @@
     <div class="centen-box w padding">
       <h1 class="big-title">Accepted Papers</h1>
       <div class="cente-text mg-bottom">
-        <p class="text">To be announced.</p>
+        <section
+          v-for="award in awards"
+          :key="award.name"
+          class="award-section"
+        >
+          <h2 class="award-title">
+            {{ award.name }}
+            <span class="award-count"
+              >{{ award.papers.length }} {{ award.papers.length === 1 ? 'paper' : 'papers' }}</span
+            >
+          </h2>
+          <article
+            v-for="paper in award.papers"
+            :key="paper.title"
+            class="paper"
+          >
+            <div class="cente-title">{{ paper.authors }}</div>
+            <div class="paper-title">{{ paper.title }}</div>
+            <a
+              v-if="paper.link"
+              class="paper-link"
+              :href="paper.link"
+              target="_blank"
+              rel="noopener noreferrer"
+              >{{ paper.link }}</a
+            >
+          </article>
+        </section>
       </div>
     </div>
     <div class="footer padding">
@@ -30,7 +57,112 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      awards: [
+        {
+          name: 'Best Paper Award',
+          papers: [
+            {
+              authors:
+                'Jijun Chi, Zhenghan Tai, Hanwei Wu, Tung Sum Thomas Kwok, Hailin He, Yanzhang Ma, Zixing Liao, Bohuai Xiao, Chaolong Jiang, Jianliang Lei, Jerry Huang, Peng Lu, Muzhi Li, Liheng Ma, Yihong Wu, Sicheng Lyu, Jingrui Tian, Dingtao Hu, Yufei Cui, Ling Zhou, Lei Ding and Xinyu Wang',
+              title: 'FinSAgent: A Financial Specialized Multi-Agent System for SEC Filing Analysis',
+            },
+          ],
+        },
+        {
+          name: 'Best Paper Runner-Up Award',
+          papers: [
+            {
+              authors: 'Zijie Zhao and Roy Welsch',
+              title:
+                'Learning Whom to Trust: Market-Feedback Adaptive RAG for Frozen LLMs and Event-Driven Market-Impact Signals',
+            },
+          ],
+        },
+        {
+          name: 'Long Oral Paper Award',
+          papers: [
+            {
+              authors: 'Jan Spörer',
+              title: 'Can Open-Weight Models Compete on Financial Text Comprehension?',
+            },
+            {
+              authors: 'Isabel Xu, Cynthia Xu, Rachel Ren, Cong Guo and Jiacheng Ding',
+              title:
+                'TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient and Privacy-Preserving Financial Sentiment Analysis',
+            },
+            {
+              authors: 'Anastasiia Fedorova, Fedor Buzaev, Marat Galyavov and Daria Pugacheva',
+              title: 'Document-Grounded DCF Valuation with LLM Assumption Governance',
+            },
+            {
+              authors: 'Guy Stéphane Waffo Dzuyo, Gaël Guibon, Christophe Cerisara and Luis Belmar Letelier',
+              title:
+                'Benchmarking Generalization in Financial Statement Fraud Detection: Robust Evaluation and Novel Tasks',
+            },
+            {
+              authors: 'Mingxuan Yi, Vidal Mehra, Jing Chen and John Cartlidge',
+              title: 'Enhancing Regime Shift Detection Using Unstructured Data: A Study on the Treasury Market',
+              link: 'https://arxiv.org/abs/2605.30363',
+            },
+          ],
+        },
+        {
+          name: 'Short Oral Paper Award',
+          papers: [
+            {
+              authors: 'Ruoxi Zhao and Maziar Raissi',
+              title: 'Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs',
+            },
+            {
+              authors: 'Chun Chet Ng, Jia Yu Lim and Wei Zeng Low',
+              title: 'PRISM: Prompt-Refined In-Context System Modeling for Financial Retrieval',
+              link: 'https://arxiv.org/abs/2511.14130',
+            },
+            {
+              authors: 'Manuela Zaidan and Silvia Tessaro Trapani',
+              title: 'Substantive Equality in the Age of Generative and Agentic AI: Rethinking Creditworthiness',
+            },
+            {
+              authors: 'Joohyun Lee and Sungwoo Hong',
+              title: 'Hierarchical Reranking for Scalable Financial RAG System',
+            },
+            {
+              authors: 'Daohan Zhu, Sitong Ge, Ruofei Wang, Honggu Chen, Yubo Hou, Tao Wan and Zengchang Qin',
+              title: 'Beyond Sentiment: Structured Information Extraction from Financial News',
+            },
+            {
+              authors: 'Yikuan Huang and Zheqi Fan',
+              title:
+                'From Prompting to Autonomous Discovery: A Closed-Loop Agentic LLM Framework for Financial Signal Generation',
+            },
+            {
+              authors: 'Anubhav Lakra and Yue Feng',
+              title: 'CACHE-UK: A Stability-Aware Memory Editor for Sequentially Updated Quantized LLMs in Finance',
+            },
+            {
+              authors: 'Bünyamin Burak Payzun, Irem Demirtaş, Simona Scala, Elena Ferretti and Seçil Arslan',
+              title: 'Benchmarks Are Not Validation: A System-Level View of Financial LLM Applications',
+            },
+            {
+              authors:
+                'Viacheslav Shalamov, Valeria Efimova, Ilya Novitskiy, Kirill Mironov, Sergey Muravyov, Georgii Petrov and Andrey Silivonchik',
+              title:
+                'Evaluating Frontier LLMs Against an Interpretable Reference for Cross-Border Economic-Crisis Detection',
+            },
+            {
+              authors: 'Rui Sun, Zuo Bai, Li Zhao and Zuoyou Jiang',
+              title: 'ContestTrade: A Multi-Agent Trading System Based on Internal Contest Mechanism',
+              link: 'https://arxiv.org/abs/2508.00554',
+            },
+          ],
+        },
+      ],
+    }
+  },
+}
 </script>
 
 <style lang="less" scoped>
@@ -244,6 +376,78 @@ export default {}
 .mg-bottom {
   margin-bottom: 50px;
 }
+.award-section {
+  margin-top: 54px;
+  &:first-child {
+    margin-top: 24px;
+  }
+}
+.award-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 26px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce5fb;
+  color: #0d152e;
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+.award-count {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  padding: 2px 12px;
+  border-radius: 14px;
+  color: #4774f4;
+  background: #edf2ff;
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.paper {
+  position: relative;
+  margin: 0 0 30px;
+  padding-left: 22px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #4774f4;
+  }
+  .cente-title {
+    margin-top: 0;
+    color: #81838c;
+    font-size: 26px;
+    line-height: 1.5;
+    font-weight: 500;
+  }
+}
+.paper-title {
+  margin-top: 0;
+  color: #81838c;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.paper-link {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #0088ff;
+  font-size: 20px;
+  line-height: 2;
+  overflow-wrap: anywhere;
+  &:hover {
+    color: #1e4dcc;
+    text-decoration: underline;
+  }
+}
 @media (max-width: 750px) {
   .header,
   .footer {
@@ -257,6 +461,34 @@ export default {}
   .w {
     min-width: 100vw;
     max-width: 100vw;
+  }
+  .award-title {
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 46px;
+  }
+  .award-count {
+    min-height: 48px;
+    padding: 4px 20px;
+    border-radius: 24px;
+    font-size: 26px;
+  }
+  .paper {
+    padding-left: 30px;
+    &::before {
+      top: 22px;
+      width: 12px;
+      height: 12px;
+    }
+    .cente-title {
+      font-size: 52px;
+    }
+  }
+  .paper-title {
+    font-size: 40px;
+  }
+  .paper-link {
+    font-size: 40px;
   }
 }
 .jz-box {
