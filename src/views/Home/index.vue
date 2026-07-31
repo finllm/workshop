@@ -402,6 +402,11 @@
 
       <h1>Meeting Agenda</h1>
       <div class="agenda-intro">August 15, 2026 · Bremen, Germany</div>
+      <div class="agenda-note">
+        <strong>Presentation note:</strong>
+        Pre-recorded or video presentations are permitted only in exceptional circumstances, such as visa-related issues
+        or other force majeure situations.
+      </div>
       <div class="agenda-table-wrap mg-bottom">
         <table class="agenda-table">
           <thead>
@@ -640,6 +645,20 @@ export default {
   font-size: 18px;
   line-height: 1.4;
   font-weight: 700;
+}
+.agenda-note {
+  margin: 0 0 24px;
+  padding: 14px 18px;
+  border-left: 5px solid #4774f4;
+  border-radius: 0 8px 8px 0;
+  color: #4f5b62;
+  background: #f3f6ff;
+  font-size: 18px;
+  line-height: 1.65;
+  strong {
+    color: #0d152e;
+    font-weight: 700;
+  }
 }
 .agenda-table-wrap {
   overflow-x: auto;
@@ -1376,6 +1395,13 @@ export default {
   .agenda-intro {
     margin-bottom: 30px;
     padding: 14px 24px;
+    font-size: 34px;
+  }
+  .agenda-note {
+    margin-bottom: 30px;
+    padding: 24px 28px;
+    border-left-width: 10px;
+    border-radius: 0 14px 14px 0;
     font-size: 34px;
   }
   .agenda-table-wrap {

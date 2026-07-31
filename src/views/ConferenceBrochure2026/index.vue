@@ -14,11 +14,6 @@
     <div class="centen-box w padding">
       <h1 class="big-title">Accepted Papers</h1>
       <div class="cente-text mg-bottom">
-        <div class="presentation-note">
-          <strong>Presentation note:</strong>
-          Pre-recorded or video presentations are permitted only in exceptional circumstances, such as visa-related
-          issues or other force majeure situations.
-        </div>
         <section
           v-for="award in awards"
           :key="award.name"
@@ -385,21 +380,6 @@ export default {
 .mg-bottom {
   margin-bottom: 50px;
 }
-.presentation-note {
-  margin: 22px 0 34px;
-  padding: 16px 20px;
-  border-left: 5px solid #4774f4;
-  border-radius: 0 8px 8px 0;
-  color: #4f5b62;
-  background: #f3f6ff;
-  font-size: 18px;
-  line-height: 1.65;
-  text-align: left;
-  strong {
-    color: #0d152e;
-    font-weight: 700;
-  }
-}
 .award-section {
   margin-top: 54px;
   &:first-child {
@@ -490,12 +470,6 @@ export default {
     align-items: flex-start;
     flex-direction: column;
     font-size: 46px;
-  }
-  .presentation-note {
-    padding: 26px 30px;
-    border-left-width: 10px;
-    border-radius: 0 14px 14px 0;
-    font-size: 36px;
   }
   .award-count {
     min-height: 48px;
