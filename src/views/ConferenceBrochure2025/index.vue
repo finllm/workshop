@@ -14,6 +14,10 @@
     <div class="centen-box w padding">
       <h1 class="big-title">Accepted Papers</h1>
       <div class="cente-text mg-bottom">
+        <h2 class="presentation-title">
+          Oral Presentations
+          <span>3 papers</span>
+        </h2>
         <div class="cente-title mg">Changlun Li, Yao Shi, Yuyu Luo and Nan Tang</div>
         DeepFund: Will LLMs be Professional at Fund Investment? A Live Arena Perspective
         <div class="link">
@@ -46,6 +50,10 @@
           >）
         </div>
 
+        <h2 class="presentation-title poster-title">
+          Poster Presentations
+          <span>5 papers</span>
+        </h2>
         <div class="cente-title">Yiwei Liu, Junbo Wang, Lei Long, Xin Li, Ruiting Ma, Yuankai Wu and Xuebin Chen</div>
         MulFSA: Multi-level Financial Sentiment Analysis Framework for Bond Market
         <div class="link">
@@ -319,6 +327,34 @@ export default {}
 .mg-bottom {
   margin-bottom: 50px;
 }
+.presentation-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 24px 0 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #dce5fb;
+  color: #0d152e;
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: 600;
+  text-align: left;
+  span {
+    display: inline-flex;
+    align-items: center;
+    min-height: 28px;
+    padding: 2px 12px;
+    border-radius: 14px;
+    color: #4774f4;
+    background: #edf2ff;
+    font-size: 14px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+}
+.poster-title {
+  margin-top: 58px;
+}
 @media (max-width: 750px) {
   .header,
   .footer {
@@ -332,6 +368,17 @@ export default {}
   .w {
     min-width: 100vw;
     max-width: 100vw;
+  }
+  .presentation-title {
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 46px;
+    span {
+      min-height: 48px;
+      padding: 4px 20px;
+      border-radius: 24px;
+      font-size: 26px;
+    }
   }
 }
 .jz-box {
