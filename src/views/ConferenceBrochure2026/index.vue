@@ -40,6 +40,20 @@
               rel="noopener noreferrer"
               >{{ paper.link }}</a
             >
+            <div
+              v-if="paper.links"
+              class="paper-links"
+            >
+              <a
+                v-for="link in paper.links"
+                :key="link.url"
+                class="paper-link"
+                :href="link.url"
+                target="_blank"
+                rel="noopener noreferrer"
+                >{{ link.label }}: {{ link.url }}</a
+              >
+            </div>
           </article>
         </section>
       </div>
@@ -125,6 +139,10 @@ export default {
             {
               authors: 'Manuela Zaidan and Silvia Tessaro Trapani',
               title: 'Substantive Equality in the Age of Generative and Agentic AI: Rethinking Creditworthiness',
+              links: [
+                { label: 'Zenodo', url: 'https://doi.org/10.5281/zenodo.21698985' },
+                { label: 'arXiv', url: 'https://arxiv.org/abs/2607.19794' },
+              ],
             },
             {
               authors: 'Joohyun Lee and Sungwoo Hong',
@@ -450,6 +468,12 @@ export default {
   &:hover {
     color: #1e4dcc;
     text-decoration: underline;
+  }
+}
+.paper-links {
+  margin-bottom: 20px;
+  .paper-link {
+    margin-bottom: 0;
   }
 }
 @media (max-width: 750px) {
