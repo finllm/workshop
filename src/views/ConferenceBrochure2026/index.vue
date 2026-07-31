@@ -101,6 +101,7 @@ export default {
               authors: 'Guy Stéphane Waffo Dzuyo, Gaël Guibon, Christophe Cerisara and Luis Belmar Letelier',
               title:
                 'Benchmarking Generalization in Financial Statement Fraud Detection: Robust Evaluation and Novel Tasks',
+              link: 'https://arxiv.org/abs/2607.19259',
             },
             {
               authors: 'Mingxuan Yi, Vidal Mehra, Jing Chen and John Cartlidge',
@@ -128,10 +129,12 @@ export default {
             {
               authors: 'Joohyun Lee and Sungwoo Hong',
               title: 'Hierarchical Reranking for Scalable Financial RAG System',
+              link: 'https://arxiv.org/abs/2607.27523',
             },
             {
               authors: 'Daohan Zhu, Sitong Ge, Ruofei Wang, Honggu Chen, Yubo Hou, Tao Wan and Zengchang Qin',
               title: 'Beyond Sentiment: Structured Information Extraction from Financial News',
+              link: 'https://arxiv.org/abs/2607.28496',
             },
             {
               authors: 'Yikuan Huang and Zheqi Fan',
@@ -141,6 +144,7 @@ export default {
             {
               authors: 'Anubhav Lakra and Yue Feng',
               title: 'CACHE-UK: A Stability-Aware Memory Editor for Sequentially Updated Quantized LLMs in Finance',
+              link: 'https://arxiv.org/abs/2607.28292',
             },
             {
               authors: 'Bünyamin Burak Payzun, Irem Demirtaş, Simona Scala, Elena Ferretti and Seçil Arslan',
