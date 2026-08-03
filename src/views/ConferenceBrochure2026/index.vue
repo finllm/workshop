@@ -82,6 +82,7 @@ export default {
               authors:
                 'Jijun Chi, Zhenghan Tai, Hanwei Wu, Tung Sum Thomas Kwok, Hailin He, Yanzhang Ma, Zixing Liao, Bohuai Xiao, Chaolong Jiang, Jianliang Lei, Jerry Huang, Peng Lu, Muzhi Li, Liheng Ma, Yihong Wu, Sicheng Lyu, Jingrui Tian, Dingtao Hu, Yufei Cui, Ling Zhou, Lei Ding and Xinyu Wang',
               title: 'FinSAgent: A Financial Specialized Multi-Agent System for SEC Filing Analysis',
+              link: 'https://arxiv.org/abs/2607.18102',
             },
           ],
         },
@@ -92,6 +93,7 @@ export default {
               authors: 'Zijie Zhao and Roy Welsch',
               title:
                 'Learning Whom to Trust: Market-Feedback Adaptive RAG for Frozen LLMs and Event-Driven Market-Impact Signals',
+              link: 'https://arxiv.org/abs/2605.31201',
             },
           ],
         },
@@ -106,6 +108,7 @@ export default {
               authors: 'Isabel Xu, Cynthia Xu, Rachel Ren, Cong Guo and Jiacheng Ding',
               title:
                 'TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient and Privacy-Preserving Financial Sentiment Analysis',
+              link: 'https://arxiv.org/abs/2607.19794',
             },
             {
               authors: 'Anastasiia Fedorova, Fedor Buzaev, Marat Galyavov and Daria Pugacheva',
@@ -139,10 +142,7 @@ export default {
             {
               authors: 'Manuela Zaidan and Silvia Tessaro Trapani',
               title: 'Substantive Equality in the Age of Generative and Agentic AI: Rethinking Creditworthiness',
-              links: [
-                { label: 'Zenodo', url: 'https://doi.org/10.5281/zenodo.21698985' },
-                { label: 'arXiv', url: 'https://arxiv.org/abs/2607.19794' },
-              ],
+              links: [{ label: 'Zenodo', url: 'https://doi.org/10.5281/zenodo.21698985' }],
             },
             {
               authors: 'Joohyun Lee and Sungwoo Hong',
@@ -158,6 +158,7 @@ export default {
               authors: 'Yikuan Huang and Zheqi Fan',
               title:
                 'From Prompting to Autonomous Discovery: A Closed-Loop Agentic LLM Framework for Financial Signal Generation',
+              link: 'https://arxiv.org/abs/2603.14288',
             },
             {
               authors: 'Anubhav Lakra and Yue Feng',
@@ -167,6 +168,7 @@ export default {
             {
               authors: 'Bünyamin Burak Payzun, Irem Demirtaş, Simona Scala, Elena Ferretti and Seçil Arslan',
               title: 'Benchmarks Are Not Validation: A System-Level View of Financial LLM Applications',
+              link: 'https://arxiv.org/abs/2607.28840',
             },
             {
               authors:
