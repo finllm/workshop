@@ -30,6 +30,7 @@
             :key="paper.title"
             class="paper"
           >
+            <div class="paper-id">{{ paper.id }}</div>
             <div class="cente-title">{{ paper.authors }}</div>
             <div class="paper-title">{{ paper.title }}</div>
             <a
@@ -79,6 +80,7 @@ export default {
           name: 'Best Paper Award',
           papers: [
             {
+              id: 'FINLLM26-01',
               authors:
                 'Jijun Chi, Zhenghan Tai, Hanwei Wu, Tung Sum Thomas Kwok, Hailin He, Yanzhang Ma, Zixing Liao, Bohuai Xiao, Chaolong Jiang, Jianliang Lei, Jerry Huang, Peng Lu, Muzhi Li, Liheng Ma, Yihong Wu, Sicheng Lyu, Jingrui Tian, Dingtao Hu, Yufei Cui, Ling Zhou, Lei Ding and Xinyu Wang',
               title: 'FinSAgent: A Financial Specialized Multi-Agent System for SEC Filing Analysis',
@@ -90,6 +92,7 @@ export default {
           name: 'Best Paper Runner-Up Award',
           papers: [
             {
+              id: 'FINLLM26-02',
               authors: 'Zijie Zhao and Roy Welsch',
               title:
                 'Learning Whom to Trust: Market-Feedback Adaptive RAG for Frozen LLMs and Event-Driven Market-Impact Signals',
@@ -101,26 +104,31 @@ export default {
           name: 'Long Oral Paper Award',
           papers: [
             {
+              id: 'FINLLM26-03',
               authors: 'Jan Spörer',
               title: 'Can Open-Weight Models Compete on Financial Text Comprehension?',
             },
             {
+              id: 'FINLLM26-04',
               authors: 'Isabel Xu, Cynthia Xu, Rachel Ren, Cong Guo and Jiacheng Ding',
               title:
                 'TriAgent: Divergence-Aware Multi-Agent Committees for Cost-Efficient and Privacy-Preserving Financial Sentiment Analysis',
               link: 'https://arxiv.org/abs/2607.19794',
             },
             {
+              id: 'FINLLM26-05',
               authors: 'Anastasiia Fedorova, Fedor Buzaev, Marat Galyavov and Daria Pugacheva',
               title: 'Document-Grounded DCF Valuation with LLM Assumption Governance',
             },
             {
+              id: 'FINLLM26-06',
               authors: 'Guy Stéphane Waffo Dzuyo, Gaël Guibon, Christophe Cerisara and Luis Belmar Letelier',
               title:
                 'Benchmarking Generalization in Financial Statement Fraud Detection: Robust Evaluation and Novel Tasks',
               link: 'https://arxiv.org/abs/2607.19259',
             },
             {
+              id: 'FINLLM26-07',
               authors: 'Mingxuan Yi, Vidal Mehra, Jing Chen and John Cartlidge',
               title: 'Enhancing Regime Shift Detection Using Unstructured Data: A Study on the Treasury Market',
               link: 'https://arxiv.org/abs/2605.30363',
@@ -131,52 +139,62 @@ export default {
           name: 'Short Oral Paper Award',
           papers: [
             {
+              id: 'FINLLM26-08',
               authors: 'Ruoxi Zhao and Maziar Raissi',
               title: 'Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs',
             },
             {
+              id: 'FINLLM26-09',
               authors: 'Chun Chet Ng, Jia Yu Lim and Wei Zeng Low',
               title: 'PRISM: Prompt-Refined In-Context System Modeling for Financial Retrieval',
               link: 'https://arxiv.org/abs/2511.14130',
             },
             {
+              id: 'FINLLM26-10',
               authors: 'Manuela Zaidan and Silvia Tessaro Trapani',
               title: 'Substantive Equality in the Age of Generative and Agentic AI: Rethinking Creditworthiness',
               links: [{ label: 'Zenodo', url: 'https://doi.org/10.5281/zenodo.21698985' }],
             },
             {
+              id: 'FINLLM26-11',
               authors: 'Joohyun Lee and Sungwoo Hong',
               title: 'Hierarchical Reranking for Scalable Financial RAG System',
               link: 'https://arxiv.org/abs/2607.27523',
             },
             {
+              id: 'FINLLM26-12',
               authors: 'Daohan Zhu, Sitong Ge, Ruofei Wang, Honggu Chen, Yubo Hou, Tao Wan and Zengchang Qin',
               title: 'Beyond Sentiment: Structured Information Extraction from Financial News',
               link: 'https://arxiv.org/abs/2607.28496',
             },
             {
+              id: 'FINLLM26-13',
               authors: 'Yikuan Huang and Zheqi Fan',
               title:
                 'From Prompting to Autonomous Discovery: A Closed-Loop Agentic LLM Framework for Financial Signal Generation',
               link: 'https://arxiv.org/abs/2603.14288',
             },
             {
+              id: 'FINLLM26-14',
               authors: 'Anubhav Lakra and Yue Feng',
               title: 'CACHE-UK: A Stability-Aware Memory Editor for Sequentially Updated Quantized LLMs in Finance',
               link: 'https://arxiv.org/abs/2607.28292',
             },
             {
+              id: 'FINLLM26-15',
               authors: 'Bünyamin Burak Payzun, Irem Demirtaş, Simona Scala, Elena Ferretti and Seçil Arslan',
               title: 'Benchmarks Are Not Validation: A System-Level View of Financial LLM Applications',
               link: 'https://arxiv.org/abs/2607.28840',
             },
             {
+              id: 'FINLLM26-16',
               authors:
                 'Viacheslav Shalamov, Valeria Efimova, Ilya Novitskiy, Kirill Mironov, Sergey Muravyov, Georgii Petrov and Andrey Silivonchik',
               title:
                 'Evaluating Frontier LLMs Against an Interpretable Reference for Cross-Border Economic-Crisis Detection',
             },
             {
+              id: 'FINLLM26-17',
               authors: 'Rui Sun, Zuo Bai, Li Zhao and Zuoyou Jiang',
               title: 'ContestTrade: A Multi-Agent Trading System Based on Internal Contest Mechanism',
               link: 'https://arxiv.org/abs/2508.00554',
@@ -452,6 +470,21 @@ export default {
     font-weight: 500;
   }
 }
+.paper-id {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  margin-bottom: 8px;
+  padding: 2px 12px;
+  border: 1px solid #cbd8ff;
+  border-radius: 14px;
+  color: #315fd8;
+  background: #f4f7ff;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
 .paper-title {
   margin-top: 0;
   color: #81838c;
@@ -513,6 +546,13 @@ export default {
     .cente-title {
       font-size: 52px;
     }
+  }
+  .paper-id {
+    min-height: 48px;
+    margin-bottom: 14px;
+    padding: 4px 20px;
+    border-radius: 24px;
+    font-size: 26px;
   }
   .paper-title {
     font-size: 40px;

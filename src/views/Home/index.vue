@@ -427,6 +427,11 @@
               <td class="agenda-time">{{ item.time }}</td>
               <td>
                 <span class="session-label">{{ item.session }}</span>
+                <span
+                  v-if="item.paperId"
+                  class="agenda-paper-id"
+                  >{{ item.paperId }}</span
+                >
               </td>
               <td>{{ item.speaker }}</td>
               <td class="agenda-institution">{{ item.institution }}</td>
@@ -472,6 +477,7 @@ export default {
         },
         {
           time: '09:40–10:05',
+          paperId: 'FINLLM26-01',
           session: 'Best Paper Award Presentation',
           speaker: 'Xinyu Wang',
           institution: 'SimpleWay.AI, Canada\nMcGill University, Canada',
@@ -481,6 +487,7 @@ export default {
         { time: '10:05–10:15', session: 'Coffee Break (informal discussion)', isBreak: true },
         {
           time: '10:15–10:30',
+          paperId: 'FINLLM26-03',
           session: 'Long Oral',
           speaker: 'Jan Spörer',
           institution: 'University of St. Gallen, Switzerland',
@@ -488,6 +495,7 @@ export default {
         },
         {
           time: '10:30–10:45',
+          paperId: 'FINLLM26-04',
           session: 'Long Oral',
           speaker: 'Isabel Xu',
           institution: 'The Overlake School, United States',
@@ -496,6 +504,7 @@ export default {
         },
         {
           time: '10:45–11:00',
+          paperId: 'FINLLM26-05',
           session: 'Long Oral (pre-recorded)',
           speaker: 'Anastasiia Fedorova',
           institution: 'Higher School of Economics, Russia',
@@ -503,6 +512,7 @@ export default {
         },
         {
           time: '11:00–11:15',
+          paperId: 'FINLLM26-06',
           session: 'Long Oral',
           speaker: 'Gaël Guibon',
           institution: 'Université de Lorraine, France',
@@ -511,6 +521,7 @@ export default {
         },
         {
           time: '11:15–11:30',
+          paperId: 'FINLLM26-07',
           session: 'Long Oral',
           speaker: 'Mingxuan Yi',
           institution: 'University of Bristol, United Kingdom',
@@ -527,6 +538,7 @@ export default {
         },
         {
           time: '14:30–14:55',
+          paperId: 'FINLLM26-02',
           session: 'Best Paper Runner-Up Presentation',
           speaker: 'Zijie Zhao',
           institution: 'Massachusetts Institute of Technology, United States',
@@ -536,6 +548,7 @@ export default {
         },
         {
           time: '14:55–15:03',
+          paperId: 'FINLLM26-08',
           session: 'Short Oral',
           speaker: 'Ruoxi Zhao',
           institution: 'University of California, United States',
@@ -543,6 +556,7 @@ export default {
         },
         {
           time: '15:03–15:11',
+          paperId: 'FINLLM26-09',
           session: 'Short Oral (pre-recorded)',
           speaker: 'Chun Chet Ng',
           institution: 'AI Lens, Malaysia',
@@ -550,6 +564,7 @@ export default {
         },
         {
           time: '15:11–15:19',
+          paperId: 'FINLLM26-10',
           session: 'Short Oral (pre-recorded)',
           speaker: 'Manuela Zaidan',
           institution: 'Intesa Sanpaolo SPA, Italy',
@@ -557,6 +572,7 @@ export default {
         },
         {
           time: '15:19–15:27',
+          paperId: 'FINLLM26-11',
           session: 'Short Oral',
           speaker: 'Joohyun Lee',
           institution: 'Financial Security Institute, South Korea\nHanyang University, South Korea',
@@ -564,6 +580,7 @@ export default {
         },
         {
           time: '15:27–15:35',
+          paperId: 'FINLLM26-12',
           session: 'Short Oral',
           speaker: 'Sitong Ge',
           institution: 'Beihang University, China',
@@ -572,6 +589,7 @@ export default {
         { time: '15:35–15:45', session: 'Coffee Break (informal discussion)', isBreak: true },
         {
           time: '15:45–15:53',
+          paperId: 'FINLLM26-13',
           session: 'Short Oral',
           speaker: 'Yikuan Huang',
           institution: 'Hong Kong University of Science and Technology, Hong Kong',
@@ -580,6 +598,7 @@ export default {
         },
         {
           time: '15:53–16:01',
+          paperId: 'FINLLM26-14',
           session: 'Short Oral',
           speaker: 'Anubhav Lakra',
           institution: 'Institute of Technology Madras, Denmark',
@@ -587,6 +606,7 @@ export default {
         },
         {
           time: '16:01–16:09',
+          paperId: 'FINLLM26-15',
           session: 'Short Oral',
           speaker: 'Irem Demirtas',
           institution: 'Prometeia SPA, Turkey',
@@ -594,6 +614,7 @@ export default {
         },
         {
           time: '16:09–16:17',
+          paperId: 'FINLLM26-16',
           session: 'Short Oral',
           speaker: 'Sergei Muravev',
           institution: 'ITMO University, Russia',
@@ -602,6 +623,7 @@ export default {
         },
         {
           time: '16:17–16:25',
+          paperId: 'FINLLM26-17',
           session: 'Short Oral',
           speaker: 'Mengting Chen',
           institution: 'Stepfun, China',
@@ -720,6 +742,19 @@ export default {
   .session-label {
     color: #315fd8;
     font-weight: 700;
+  }
+  .agenda-paper-id {
+    display: table;
+    margin-top: 7px;
+    padding: 2px 9px;
+    border: 1px solid #cbd8ff;
+    border-radius: 999px;
+    color: #315fd8;
+    background: #ffffff;
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 700;
+    letter-spacing: 0.02em;
   }
   .agenda-institution {
     white-space: pre-line;
@@ -1429,6 +1464,11 @@ export default {
     }
     th:nth-child(4) {
       width: 510px;
+    }
+    .agenda-paper-id {
+      margin-top: 10px;
+      padding: 4px 14px;
+      font-size: 24px;
     }
   }
   .center-box {
