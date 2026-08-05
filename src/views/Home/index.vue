@@ -601,7 +601,7 @@ export default {
           paperId: 'FINLLM26-14',
           session: 'Short Oral',
           speaker: 'Anubhav Lakra',
-          institution: 'Institute of Technology Madras, Denmark',
+          institution: 'Indian Institute of Technology Madras, India',
           title: 'CACHE-UK: A Stability-Aware Memory Editor for Sequentially Updated Quantized LLMs in Finance',
         },
         {
