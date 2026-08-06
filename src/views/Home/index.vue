@@ -514,7 +514,7 @@ export default {
           time: '11:00–11:15',
           paperId: 'FINLLM26-06',
           session: 'Long Oral',
-          speaker: 'Gaël Guibon',
+          speaker: 'Guy Stephane Waffo Dzuyo',
           institution: 'Université de Lorraine, France',
           title:
             'Benchmarking Generalization in Financial Statement Fraud Detection: Robust Evaluation and Novel Tasks',
@@ -549,7 +549,7 @@ export default {
         {
           time: '14:55–15:03',
           paperId: 'FINLLM26-08',
-          session: 'Short Oral',
+          session: 'Short Oral (pre-recorded)',
           speaker: 'Ruoxi Zhao',
           institution: 'University of California, United States',
           title: 'Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs',
@@ -615,7 +615,7 @@ export default {
         {
           time: '16:09–16:17',
           paperId: 'FINLLM26-16',
-          session: 'Short Oral',
+          session: 'Short Oral (pre-recorded)',
           speaker: 'Sergei Muravev',
           institution: 'ITMO University, Russia',
           title:
