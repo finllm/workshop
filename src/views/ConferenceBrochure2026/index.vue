@@ -103,6 +103,7 @@ export default {
             {
               authors: 'Jan Spörer',
               title: 'Can Open-Weight Models Compete on Financial Text Comprehension?',
+              link: 'https://arxiv.org/abs/2608.08634',
             },
             {
               authors: 'Isabel Xu, Cynthia Xu, Rachel Ren, Cong Guo and Jiacheng Ding',
@@ -133,6 +134,7 @@ export default {
             {
               authors: 'Ruoxi Zhao and Maziar Raissi',
               title: 'Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs',
+              link: 'https://arxiv.org/abs/2608.11232',
             },
             {
               authors: 'Chun Chet Ng, Jia Yu Lim and Wei Zeng Low',
