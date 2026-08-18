@@ -571,14 +571,6 @@ export default {
           title: 'Substantive Equality in the Age of Generative and Agentic AI: Rethinking Creditworthiness',
         },
         {
-          time: '15:19–15:27',
-          paperId: 'FINLLM26-11',
-          session: 'Short Oral',
-          speaker: 'Joohyun Lee',
-          institution: 'Financial Security Institute, South Korea\nHanyang University, South Korea',
-          title: 'Hierarchical Reranking for Scalable Financial RAG System',
-        },
-        {
           time: '15:27–15:35',
           paperId: 'FINLLM26-12',
           session: 'Short Oral',

@@ -147,11 +147,6 @@ export default {
               links: [{ label: 'Zenodo', url: 'https://doi.org/10.5281/zenodo.21698985' }],
             },
             {
-              authors: 'Joohyun Lee and Sungwoo Hong',
-              title: 'Hierarchical Reranking for Scalable Financial RAG System',
-              link: 'https://arxiv.org/abs/2607.27523',
-            },
-            {
               authors: 'Daohan Zhu, Sitong Ge, Ruofei Wang, Honggu Chen, Yubo Hou, Tao Wan and Zengchang Qin',
               title: 'Beyond Sentiment: Structured Information Extraction from Financial News',
               link: 'https://arxiv.org/abs/2607.28496',
