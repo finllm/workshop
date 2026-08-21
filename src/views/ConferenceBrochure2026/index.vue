@@ -172,6 +172,12 @@ export default {
                 'Viacheslav Shalamov, Valeria Efimova, Ilya Novitskiy, Kirill Mironov, Sergey Muravyov, Georgii Petrov and Andrey Silivonchik',
               title:
                 'Evaluating Frontier LLMs Against an Interpretable Reference for Cross-Border Economic-Crisis Detection',
+              links: [
+                {
+                  label: 'Zenodo',
+                  url: 'https://zenodo.org/records/21848617?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjYwYzBjNTNkLWU5MjMtNDVhYS05MWE0LTdlMmNkMTBkMWI0YiIsImRhdGEiOnt9LCJyYW5kb20iOiI4OGUwOWI4NzI4MDMzMmViZmUwOWJmYmU0MTY1M2Q5ZiJ9.KoDqj5CWN7RRk7ZWKgQv93VobVbckm8PfDebv78WgOtacspq6H5egPOIj2NRzT89H1wuCUYNYaIQuaMxZsMTKg',
+                },
+              ],
             },
             {
               authors: 'Rui Sun, Zuo Bai, Li Zhao and Zuoyou Jiang',
