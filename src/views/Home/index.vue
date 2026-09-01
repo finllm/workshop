@@ -618,7 +618,7 @@ export default {
           paperId: 'FINLLM26-17',
           session: 'Short Oral',
           speaker: 'Mengting Chen',
-          institution: 'Stepfun, China',
+          institution: 'FinStep, China',
           title: 'ContestTrade: A Multi-Agent Trading System Based on Internal Contest Mechanism',
         },
         {
